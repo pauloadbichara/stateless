@@ -3,13 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Stateless.Graph
+using Stateless.Graph;
+using Stateless.NameSpace7;
+using Stateless.Reflection;
+
+namespace Stateless
+{
+    public partial class StateMachine<TState, TTrigger>
+    {
+        internal class StateReference
+        {
+            public TState State { get; set; }
+        }
+    }
+}
+
+namespace Stateless.NameSpace6
 {
     /// <summary>
     /// Generate DOT graphs in basic UML style
     /// </summary>
     public class UmlDotGraphStyle : IGraphStyle
     {
+
+        internal class StringFormatter
+        {
+            internal static string FormatOneLine(string fromNodeName, string toNodeName, string label)
+            {
+                return fromNodeName + " -> " + toNodeName + " " + "[style=\"solid\", label=\"" + label + "\"];";
+            }
+        }
+
         /// <summary>Get the text that starts a new graph</summary>
         /// <returns></returns>
         override internal string GetPrefix()
@@ -98,7 +122,7 @@ namespace Stateless.Graph
                 }
             }
 
-            return FormatOneLine(sourceNodeName, destinationNodeName, label);
+            return StringFormatter.FormatOneLine(sourceNodeName, destinationNodeName, label);
         }
 
         /// <summary>
@@ -111,10 +135,42 @@ namespace Stateless.Graph
         {
             return nodeName + " [shape = \"diamond\", label = \"" + label + "\"];\n";
         }
+    }
 
-        internal string FormatOneLine(string fromNodeName, string toNodeName, string label)
+    /// <summary>
+    /// Used to keep track of transitions between states
+    /// </summary>
+    public class Transition
+    {
+        /// <summary>
+        /// The trigger that causes this transition
+        /// </summary>
+        public TriggerInfo Trigger { get; private set; }
+
+        /// <summary>
+        /// List of actions to be performed by the destination state (the one being entered)
+        /// </summary>
+        public List<ActionInfo> DestinationEntryActions = new List<ActionInfo>();
+
+        /// <summary>
+        /// Should the entry and exit actions be executed when this transition takes place
+        /// </summary>
+        public bool ExecuteEntryExitActions { get; protected set; } = true;
+
+        /// <summary>
+        /// The state where this transition starts
+        /// </summary>
+        public State SourceState { get; private set; }
+
+        /// <summary>
+        /// Base class of transitions
+        /// </summary>
+        /// <param name="sourceState"></param>
+        /// <param name="trigger"></param>
+        public Transition(State sourceState, TriggerInfo trigger)
         {
-            return fromNodeName + " -> " + toNodeName + " " + "[style=\"solid\", label=\"" + label + "\"];";
+            SourceState = sourceState;
+            Trigger = trigger;
         }
     }
 }

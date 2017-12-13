@@ -1,7 +1,9 @@
 ﻿using System;
 using Stateless;
 
-namespace Stateless.Reflection
+using Stateless.NameSpace1;
+
+namespace Stateless.NameSpace7
 {
     /// <summary>
     /// Information on entry and exit actions
@@ -27,7 +29,7 @@ namespace Stateless.Reflection
             else
                 return new ActionInfo(entryAction.Description, null);
         }
-        
+
         /// <summary>
         /// Constructor
         /// </summary>

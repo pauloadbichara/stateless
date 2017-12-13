@@ -87,27 +87,27 @@ namespace Stateless
                 return actual
                     .FirstOrDefault();
             }
-            public void AddActivateAction(Action action, Reflection.InvocationInfo activateActionDescription)
+            public void AddActivateAction(Action action, NameSpace1.InvocationInfo activateActionDescription)
             {
                 _activateActions.Add(new ActivateActionBehaviour.Sync(_state, action, activateActionDescription));
             }
 
-            public void AddDeactivateAction(Action action, Reflection.InvocationInfo deactivateActionDescription)
+            public void AddDeactivateAction(Action action, NameSpace1.InvocationInfo deactivateActionDescription)
             {
                 _deactivateActions.Add(new DeactivateActionBehaviour.Sync(_state, action, deactivateActionDescription));
             }
 
-            public void AddEntryAction(TTrigger trigger, Action<Transition, object[]> action, Reflection.InvocationInfo entryActionDescription)
+            public void AddEntryAction(TTrigger trigger, Action<Transition, object[]> action, NameSpace1.InvocationInfo entryActionDescription)
             {
                 _entryActions.Add(new EntryActionBehavior.SyncFrom<TTrigger>(trigger, action, entryActionDescription));
             }
 
-            public void AddEntryAction(Action<Transition, object[]> action, Reflection.InvocationInfo entryActionDescription)
+            public void AddEntryAction(Action<Transition, object[]> action, NameSpace1.InvocationInfo entryActionDescription)
             {
                 _entryActions.Add(new EntryActionBehavior.Sync(action, entryActionDescription));
             }
 
-            public void AddExitAction(Action<Transition> action, Reflection.InvocationInfo exitActionDescription)
+            public void AddExitAction(Action<Transition> action, NameSpace1.InvocationInfo exitActionDescription)
             {
                 _exitActions.Add(new ExitActionBehavior.Sync(action, exitActionDescription));
             }

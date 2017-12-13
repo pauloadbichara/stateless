@@ -385,7 +385,7 @@ namespace Stateless
             {
                 _representation.AddActivateAction(
                     activateAction,
-                    Reflection.InvocationInfo.Create(activateAction, activateActionDescription));
+                    NameSpace1.InvocationInfo.Create(activateAction, activateActionDescription));
                 return this;
             }
 
@@ -400,7 +400,7 @@ namespace Stateless
             {
                 _representation.AddDeactivateAction(
                     deactivateAction,
-                    Reflection.InvocationInfo.Create(deactivateAction, deactivateActionDescription));
+                    NameSpace1.InvocationInfo.Create(deactivateAction, deactivateActionDescription));
                 return this;
             }
 
@@ -417,7 +417,7 @@ namespace Stateless
 
                 _representation.AddEntryAction(
                     (t, args) => entryAction(),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
 
             }
@@ -435,7 +435,7 @@ namespace Stateless
 
                 _representation.AddEntryAction(
                     (t, args) => entryAction(t),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
             }
 
@@ -454,7 +454,7 @@ namespace Stateless
                 _representation.AddEntryAction(
                     trigger,
                     (t, args) => entryAction(),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
 
             }
@@ -474,7 +474,7 @@ namespace Stateless
                 _representation.AddEntryAction(
                     trigger,
                     (t, args) => entryAction(t),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
             }
 
@@ -496,7 +496,7 @@ namespace Stateless
                     trigger.Trigger,
                     (t, args) => entryAction(
                         ParameterConversion.Unpack<TArg0>(args, 0)),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
 
             }
@@ -519,7 +519,7 @@ namespace Stateless
                     trigger.Trigger,
                     (t, args) => entryAction(
                         ParameterConversion.Unpack<TArg0>(args, 0), t),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
             }
 
@@ -542,7 +542,7 @@ namespace Stateless
                     (t, args) => entryAction(
                         ParameterConversion.Unpack<TArg0>(args, 0),
                         ParameterConversion.Unpack<TArg1>(args, 1)),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
 
             }
@@ -565,7 +565,7 @@ namespace Stateless
                 _representation.AddEntryAction(trigger.Trigger, (t, args) => entryAction(
                     ParameterConversion.Unpack<TArg0>(args, 0),
                     ParameterConversion.Unpack<TArg1>(args, 1), t),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
             }
 
@@ -589,7 +589,7 @@ namespace Stateless
                     ParameterConversion.Unpack<TArg0>(args, 0),
                     ParameterConversion.Unpack<TArg1>(args, 1),
                     ParameterConversion.Unpack<TArg2>(args, 2)),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
 
             }
@@ -614,7 +614,7 @@ namespace Stateless
                     ParameterConversion.Unpack<TArg0>(args, 0),
                     ParameterConversion.Unpack<TArg1>(args, 1),
                     ParameterConversion.Unpack<TArg2>(args, 2), t),
-                    Reflection.InvocationInfo.Create(entryAction, entryActionDescription));
+                    NameSpace1.InvocationInfo.Create(entryAction, entryActionDescription));
                 return this;
             }
 
@@ -631,7 +631,7 @@ namespace Stateless
 
                 _representation.AddExitAction(
                     t => exitAction(),
-                    Reflection.InvocationInfo.Create(exitAction, exitActionDescription));
+                    NameSpace1.InvocationInfo.Create(exitAction, exitActionDescription));
                 return this;
             }
 
@@ -646,7 +646,7 @@ namespace Stateless
             {
                 _representation.AddExitAction(
                     exitAction,
-                    Reflection.InvocationInfo.Create(exitAction, exitActionDescription));
+                    NameSpace1.InvocationInfo.Create(exitAction, exitActionDescription));
                 return this;
             }
 
@@ -715,7 +715,7 @@ namespace Stateless
                         null,           // No transition guard
                         Reflection.DynamicTransitionInfo.Create(trigger,
                             null,       // No guards
-                            Reflection.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
+                            NameSpace1.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
                             possibleDestinationStates
                         )
                     ));
@@ -746,7 +746,7 @@ namespace Stateless
                         null,       // No transition guards
                         Reflection.DynamicTransitionInfo.Create(trigger.Trigger,
                             null,    // No guards
-                            Reflection.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
+                            NameSpace1.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
                             null)        // Possible states not specified
                     ));
                 return this;
@@ -778,7 +778,7 @@ namespace Stateless
                     null,       // No transition guard
                     Reflection.DynamicTransitionInfo.Create(trigger.Trigger,
                         null,       // No guards
-                        Reflection.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),                        
+                        NameSpace1.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),                        
                         null)       // Possible states not defined
                 ));
                 return this;
@@ -812,7 +812,7 @@ namespace Stateless
                     null,       // No transition guard
                     Reflection.DynamicTransitionInfo.Create(trigger.Trigger,
                         null,       // No guards
-                        Reflection.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
+                        NameSpace1.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
                         null)       // Possible states not defined
                     ));
                 return this;
@@ -1093,7 +1093,7 @@ namespace Stateless
                     transitionGuard,
                     Reflection.DynamicTransitionInfo.Create(trigger,
                         transitionGuard.Conditions.Select(x => x.MethodDescription),
-                        Reflection.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
+                        NameSpace1.InvocationInfo.Create(destinationStateSelector, destinationStateSelectorDescription),
                         possibleDestinationStates)
                     ));
                 return this;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Stateless;
 using Stateless.Graph;
+using Stateless.NameSpace2;
 
 namespace BugTrackerExample
 {

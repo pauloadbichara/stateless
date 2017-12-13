@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using Stateless.NameSpace1;
+using Stateless.NameSpace7;
+
 namespace Stateless.Reflection
 {
     /// <summary>

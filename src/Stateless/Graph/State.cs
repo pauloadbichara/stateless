@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+using Stateless.NameSpace6;
 using Stateless.Reflection;
 
 namespace Stateless.Graph

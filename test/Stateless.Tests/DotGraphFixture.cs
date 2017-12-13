@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using Xunit;
 using Stateless.Reflection;
 using Stateless.Graph;
+using Stateless.NameSpace1;
+using Stateless.NameSpace2;
 
 namespace Stateless.Tests
 {
@@ -359,7 +361,7 @@ namespace Stateless.Tests
                 .Ignore(Trigger.Y)
                 .Permit(Trigger.X, State.B);
 
-            Assert.Equal(expected, Graph.UmlDotGraph.Format(sm.GetInfo()));
+            Assert.Equal(expected, NameSpace2.UmlDotGraph.Format(sm.GetInfo()));
         }
 
         [Fact]

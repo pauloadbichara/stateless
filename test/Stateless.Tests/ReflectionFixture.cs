@@ -1,5 +1,7 @@
 ﻿using System;
 using Xunit;
+using Stateless.NameSpace1;
+using Stateless.NameSpace7;
 using Stateless.Reflection;
 using Xunit.Sdk;
 using System.Linq;

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using Stateless.NameSpace3;
+using Stateless.NameSpace4;
+
 namespace Stateless.Graph
 {
     /// <summary>
@@ -55,7 +58,7 @@ namespace Stateless.Graph
         /// </summary>
         /// <param name="transitions">List of all transitions in the state graph</param>
         /// <returns>Description of all transitions, in the desired format</returns>
-        virtual internal List<string> FormatAllTransitions(List<Stateless.Graph.Transition> transitions)
+        virtual internal List<string> FormatAllTransitions(List<Stateless.NameSpace6.Transition> transitions)
         {
             List<string> lines = new List<string>();
 

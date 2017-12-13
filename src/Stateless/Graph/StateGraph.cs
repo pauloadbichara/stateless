@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Stateless.NameSpace2;
+using Stateless.NameSpace3;
+using Stateless.NameSpace4;
+using Stateless.NameSpace6;
 using Stateless.Reflection;
 
 namespace Stateless.Graph

@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
+
+// We are keeping the original namespace instead of using something like NameSpaceN
+// because of the partial class
 namespace Stateless
 {
     public partial class StateMachine<TState, TTrigger>
@@ -33,12 +37,12 @@ namespace Stateless
             /// The state transitioned from.
             /// </summary>
             public TState Source { get { return _source; } }
-            
+
             /// <summary>
             /// The state transitioned to.
             /// </summary>
             public TState Destination { get { return _destination; } }
-            
+
             /// <summary>
             /// The trigger that caused the transition.
             /// </summary>
@@ -48,6 +52,18 @@ namespace Stateless
             /// True if the transition is a re-entry, i.e. the identity transition.
             /// </summary>
             public bool IsReentry { get { return Source.Equals(Destination); } }
+        }
+    }
+
+    internal static class TaskResult
+    {
+        internal static readonly Task Done = FromResult(1);
+
+        static Task<T> FromResult<T>(T value)
+        {
+            var tcs = new TaskCompletionSource<T>();
+            tcs.SetResult(value);
+            return tcs.Task;
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Stateless.Reflection
+namespace Stateless.NameSpace1
 {
     /// <summary>
     /// Describes a method - either an action (activate, deactivate, etc.) or a transition guard
