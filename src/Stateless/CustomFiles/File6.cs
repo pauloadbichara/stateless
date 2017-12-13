@@ -1,7 +1,7 @@
 ﻿using System;
 using Stateless;
 
-using Stateless.NameSpace1;
+using Stateless.Reflection;
 
 namespace Stateless.NameSpace7
 {

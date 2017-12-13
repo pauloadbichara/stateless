@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using Stateless.NameSpace1;
-
 namespace Stateless.Reflection
 {
     /// <summary>
@@ -55,30 +53,5 @@ namespace Stateless.Reflection
         {
             base.Add(new DynamicStateInfo(destinationState.ToString(), criterion));
         }
-    }
-
-    /// <summary>
-    /// Describes a transition that can be initiated from a trigger, but whose result is non-deterministic.
-    /// </summary>
-    public class DynamicTransitionInfo : TransitionInfo
-    {
-        internal InvocationInfo DestinationStateSelectorDescription { get; private set; }
-        internal DynamicStateInfos PossibleDestinationStates { get; private set; }
-
-        internal static DynamicTransitionInfo Create<TTrigger>(TTrigger trigger, IEnumerable<InvocationInfo> guards,
-            InvocationInfo selector, DynamicStateInfos possibleStates)
-        {
-            var transition = new DynamicTransitionInfo
-            {
-                Trigger = new TriggerInfo(trigger),
-                GuardConditionsMethodDescriptions = guards ?? new List<InvocationInfo>(),
-                DestinationStateSelectorDescription = selector,
-                PossibleDestinationStates = possibleStates // behaviour.PossibleDestinationStates?.Select(x => x.ToString()).ToArray()
-            };
-
-            return transition;
-        }
-
-        private DynamicTransitionInfo() { }
     }
 }

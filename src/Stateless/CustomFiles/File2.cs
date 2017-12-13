@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Stateless.NameSpace1;
 using Stateless.NameSpace6;
 using Stateless.Reflection;
 

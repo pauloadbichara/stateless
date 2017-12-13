@@ -1,73 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using Stateless.Reflection;
 
 namespace Stateless.NameSpace1
 {
     /// <summary>
-    /// Describes a method - either an action (activate, deactivate, etc.) or a transition guard
+    /// Describes a transition that can be initiated from a trigger, but whose result is non-deterministic.
     /// </summary>
-    public class InvocationInfo
+    public class DynamicTransitionInfo : TransitionInfo
     {
-        readonly string _description;                     // _description can be null if user didn't specify a description
+        internal InvocationInfo DestinationStateSelectorDescription { get; private set; }
+        internal DynamicStateInfos PossibleDestinationStates { get; private set; }
 
-        /// <summary>
-        /// Is the method synchronous or asynchronous?
-        /// </summary>
-        internal enum Timing
+        internal class Creator
         {
-            /// <summary>Method is synchronous</summary>
-            Synchronous,
-
-            /// <summary>Method is asynchronous</summary>
-            Asynchronous
-        }
-        readonly Timing _timing;
-
-        internal static InvocationInfo Create(Delegate method, string description, Timing timing = Timing.Synchronous)
-        {
-            return new InvocationInfo(method?.TryGetMethodName(), description, timing);
-        }
-
-        InvocationInfo(string methodName, string description, Timing timing)      // description can be null if user didn't specify a description
-        {
-            MethodName = methodName;
-            _description = description;
-            _timing = timing;
-        }
-
-        /// <summary>
-        /// The name of the invoked method.  If the method is a lambda or delegate, the name will be a compiler-generated
-        /// name that is often not human-friendly (e.g. "(.ctor)b__2_0" except with angle brackets instead of parentheses)
-        /// </summary>
-        public string MethodName { get; private set; }
-
-        /// <summary>
-        /// Text returned for compiler-generated functions where the caller has not specified a description
-        /// </summary>
-        static public string DefaultFunctionDescription { get; set; } = "Function";
-
-        /// <summary>
-        /// A description of the invoked method.  Returns:
-        /// 1) The user-specified description, if any
-        /// 2) else if the method name is compiler-generated, returns DefaultFunctionDescription
-        /// 3) else the method name
-        /// </summary>
-        public string Description
-        {
-            get
+            internal static DynamicTransitionInfo Create<TTrigger>(TTrigger trigger, IEnumerable<InvocationInfo> guards,
+    InvocationInfo selector, DynamicStateInfos possibleStates)
             {
-                if (_description != null)
-                    return _description;
-                if (MethodName.IndexOfAny(new char[] { '<', '>', '`' }) >= 0)
-                    return DefaultFunctionDescription;
-                return MethodName ?? "<null>";
+                var transition = new DynamicTransitionInfo
+                {
+                    Trigger = new TriggerInfo(trigger),
+                    GuardConditionsMethodDescriptions = guards ?? new List<InvocationInfo>(),
+                    DestinationStateSelectorDescription = selector,
+                    PossibleDestinationStates = possibleStates // behaviour.PossibleDestinationStates?.Select(x => x.ToString()).ToArray()
+                };
+
+                return transition;
             }
         }
+        internal static DynamicTransitionInfo Create<TTrigger>(TTrigger trigger, IEnumerable<InvocationInfo> guards,
+            InvocationInfo selector, DynamicStateInfos possibleStates)
+        {
+            return Creator.Create(trigger, guards, selector, possibleStates);
+        }
 
-        /// <summary>
-        /// Returns true if the method is invoked asynchronously.
-        /// </summary>
-        public bool IsAsync => (_timing == Timing.Asynchronous);
+        private DynamicTransitionInfo() { }
     }
 }

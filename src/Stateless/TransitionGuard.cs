@@ -15,13 +15,13 @@ namespace Stateless
             internal TransitionGuard(Tuple<Func<bool>, string>[] guards)
             {
                 Conditions = guards
-                    .Select(g => new GuardCondition(g.Item1, NameSpace1.InvocationInfo.Create(g.Item1, g.Item2)))
+                    .Select(g => new GuardCondition(g.Item1, Reflection.InvocationInfo.Create(g.Item1, g.Item2)))
                     .ToList();
             }
 
             internal TransitionGuard(Func<bool> guard, string description = null)
             {
-                Conditions = new List<GuardCondition> { new GuardCondition(guard, NameSpace1.InvocationInfo.Create(guard, description)) };
+                Conditions = new List<GuardCondition> { new GuardCondition(guard, Reflection.InvocationInfo.Create(guard, description)) };
             }
 
             /// <summary>

@@ -10,10 +10,10 @@ namespace Stateless
         internal class DynamicTriggerBehaviour : TriggerBehaviour
         {
             readonly Func<object[], TState> _destination;
-            internal Reflection.DynamicTransitionInfo TransitionInfo { get; private set; }
+            internal NameSpace1.DynamicTransitionInfo TransitionInfo { get; private set; }
 
             public DynamicTriggerBehaviour(TTrigger trigger, Func<object[], TState> destination, 
-                TransitionGuard transitionGuard, Reflection.DynamicTransitionInfo info)
+                TransitionGuard transitionGuard, NameSpace1.DynamicTransitionInfo info)
                 : base(trigger, transitionGuard)
             {
                 _destination = destination ?? throw new ArgumentNullException(nameof(destination));

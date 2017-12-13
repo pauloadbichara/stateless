@@ -11,17 +11,17 @@ namespace Stateless
     {
         internal partial class StateRepresentation
         {
-            public void AddActivateAction(Func<Task> action, NameSpace1.InvocationInfo activateActionDescription)
+            public void AddActivateAction(Func<Task> action, Reflection.InvocationInfo activateActionDescription)
             {
                 _activateActions.Add(new ActivateActionBehaviour.Async(_state, action, activateActionDescription));
             }
 
-            public void AddDeactivateAction(Func<Task> action, NameSpace1.InvocationInfo deactivateActionDescription)
+            public void AddDeactivateAction(Func<Task> action, Reflection.InvocationInfo deactivateActionDescription)
             {
                 _deactivateActions.Add(new DeactivateActionBehaviour.Async(_state, action, deactivateActionDescription));
             }
 
-            public void AddEntryAction(TTrigger trigger, Func<Transition, object[], Task> action, NameSpace1.InvocationInfo entryActionDescription)
+            public void AddEntryAction(TTrigger trigger, Func<Transition, object[], Task> action, Reflection.InvocationInfo entryActionDescription)
             {
                 if (action == null) throw new ArgumentNullException(nameof(action));
 
@@ -36,7 +36,7 @@ namespace Stateless
                     entryActionDescription));
             }
 
-            public void AddEntryAction(Func<Transition, object[], Task> action, NameSpace1.InvocationInfo entryActionDescription)
+            public void AddEntryAction(Func<Transition, object[], Task> action, Reflection.InvocationInfo entryActionDescription)
             {
                 _entryActions.Add(
                     new EntryActionBehavior.Async(
@@ -44,7 +44,7 @@ namespace Stateless
                         entryActionDescription));
             }
 
-            public void AddExitAction(Func<Transition, Task> action, NameSpace1.InvocationInfo exitActionDescription)
+            public void AddExitAction(Func<Transition, Task> action, Reflection.InvocationInfo exitActionDescription)
             {
                 _exitActions.Add(new ExitActionBehavior.Async(action, exitActionDescription));
             }

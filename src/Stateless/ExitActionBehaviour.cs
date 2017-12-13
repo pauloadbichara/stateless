@@ -10,23 +10,23 @@ namespace Stateless
     {
         internal abstract class ExitActionBehavior
         {
-            readonly NameSpace1.InvocationInfo _actionDescription;
+            readonly Reflection.InvocationInfo _actionDescription;
 
             public abstract void Execute(Transition transition);
             public abstract Task ExecuteAsync(Transition transition);
 
-            protected ExitActionBehavior(NameSpace1.InvocationInfo actionDescription)
+            protected ExitActionBehavior(Reflection.InvocationInfo actionDescription)
             {
                 _actionDescription = actionDescription ?? throw new ArgumentNullException(nameof(actionDescription));
             }
 
-            internal NameSpace1.InvocationInfo Description => _actionDescription;
+            internal Reflection.InvocationInfo Description => _actionDescription;
 
             public class Sync : ExitActionBehavior
             {
                 readonly Action<Transition> _action;
 
-                public Sync(Action<Transition> action, NameSpace1.InvocationInfo actionDescription) : base(actionDescription)
+                public Sync(Action<Transition> action, Reflection.InvocationInfo actionDescription) : base(actionDescription)
                 {
                     _action = action;
                 }
@@ -47,7 +47,7 @@ namespace Stateless
             {
                 readonly Func<Transition, Task> _action;
 
-                public Async(Func<Transition, Task> action, NameSpace1.InvocationInfo actionDescription) : base(actionDescription)
+                public Async(Func<Transition, Task> action, Reflection.InvocationInfo actionDescription) : base(actionDescription)
                 {
                     _action = action;
                 }
