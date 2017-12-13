@@ -1,0 +1,29 @@
+{
+    "base_scm_service_uri":"coverage.xml",
+    "files_relative_to_base_uri":[
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File1.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File1.cs"
+        },
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File2.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File2.cs"
+        },
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File3.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File3.cs"
+        },
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File4.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File4.cs"
+        },
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File5.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File5.cs"
+        },
+        {
+            "full_local_file_path":"C:\\codebases\\stateless_paulo\\src\\Stateless\\CustomFiles\\File6.cs",
+            "path_in_scm":"src/Stateless/CustomFiles/File6.cs"
+        }
+  ]
+}
