@@ -25,15 +25,6 @@ namespace Stateless.NameSpace6
     /// </summary>
     public class UmlDotGraphStyle : IGraphStyle
     {
-
-        internal class StringFormatter
-        {
-            internal static string FormatOneLine(string fromNodeName, string toNodeName, string label)
-            {
-                return fromNodeName + " -> " + toNodeName + " " + "[style=\"solid\", label=\"" + label + "\"];";
-            }
-        }
-
         /// <summary>Get the text that starts a new graph</summary>
         /// <returns></returns>
         override internal string GetPrefix()
@@ -44,7 +35,15 @@ namespace Stateless.NameSpace6
                       + "rankdir=\"LR\"\n";
         }
 
-        internal override string FormatOneCluster(SuperState stateInfo)
+        internal class StringFormatter
+        {
+            internal static string FormatOneLine(string fromNodeName, string toNodeName, string label)
+            {
+                return fromNodeName + " -> " + toNodeName + " " + "[style=\"solid\", label=\"" + label + "\"];";
+            }
+        }
+
+         internal override string FormatOneCluster(SuperState stateInfo)
         {
             string stateRepresentationString = "";
             var sourceName = stateInfo.StateName;
