@@ -12,11 +12,11 @@ URL=${3:-"http://testserver-dev.devfactory.com/ts/v2"}
 
 RES=$(curl --fail --silent --show-error -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' \
   -d '{
-     "productVersionId": 99977,
+     "productVersionId": 13874,
      "scmRepoUrl": "https://github.com/pauloadbichara/stateless.git?branch=paulo-mod",
-     "scmRepoId": 99977,
+     "scmRepoId": 1420,
      "scmRevision": "'${SCM_REVISION}'",
-     "testSuiteId": 1238,
+     "testSuiteId": 1243,
      "buildId": '${BUILD_ID}',
      "executionStartUtc": "2017-12-07T01:00:00.000Z",
      "executionEndUtc": "2017-12-07T01:01:00.000Z",
