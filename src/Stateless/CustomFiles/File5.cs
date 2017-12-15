@@ -10,89 +10,32 @@ using Stateless.Reflection;
 
 namespace Stateless
 {
-    public partial class StateMachine<TState, TTrigger>
+
+    /// <summary>
+    /// Describes a fake class.
+    /// </summary>
+    public partial class FakePartialClass
     {
-        internal abstract class EntryActionBehavior
+        /// <summary>
+        /// Describes a fake method.
+        /// </summary>
+        public static void PretendToDoFakeStuff()
         {
-            Reflection.InvocationInfo _description;
-
-            protected EntryActionBehavior(Reflection.InvocationInfo description)
+            int a = 1;
+            int b = 3;
+            if (a + b == 4)
             {
-                _description = description;
+                string wow = "Amazing!";
+                wow += "What a surprise!";
             }
-
-            public Reflection.InvocationInfo Description => _description;
-
-            public abstract void Execute(Transition transition, object[] args);
-            public abstract Task ExecuteAsync(Transition transition, object[] args);
-
-            public class Sync : EntryActionBehavior
+            else
             {
-                readonly Action<Transition, object[]> _action;
-
-                public Sync(Action<Transition, object[]> action, Reflection.InvocationInfo description) : base(description)
-                {
-                    _action = action;
-                }
-
-                public override void Execute(Transition transition, object[] args)
-                {
-                    _action(transition, args);
-                }
-
-                public override Task ExecuteAsync(Transition transition, object[] args)
-                {
-                    Execute(transition, args);
-                    return TaskResult.Done;
-                }
-            }
-
-            public class SyncFrom<TTriggerType> : Sync
-            {
-                internal TTriggerType Trigger { get; private set; }
-
-                public SyncFrom(TTriggerType trigger, Action<Transition, object[]> action, Reflection.InvocationInfo description)
-                    : base(action, description)
-                {
-                    Trigger = trigger;
-                }
-
-                public override void Execute(Transition transition, object[] args)
-                {
-                    if (transition.Trigger.Equals(Trigger))
-                        base.Execute(transition, args);
-                }
-
-                public override Task ExecuteAsync(Transition transition, object[] args)
-                {
-                    Execute(transition, args);
-                    return TaskResult.Done;
-                }
-            }
-
-            public class Async : EntryActionBehavior
-            {
-                readonly Func<Transition, object[], Task> _action;
-
-                public Async(Func<Transition, object[], Task> action, Reflection.InvocationInfo description) : base(description)
-                {
-                    _action = action;
-                }
-
-                public override void Execute(Transition transition, object[] args)
-                {
-                    throw new InvalidOperationException(
-                        $"Cannot execute asynchronous action specified in OnEntry event for '{transition.Destination}' state. " +
-                         "Use asynchronous version of Fire [FireAsync]");
-                }
-
-                public override Task ExecuteAsync(Transition transition, object[] args)
-                {
-                    return _action(transition, args);
-                }
+                string confused = "What the ...";
+                confused += "Your machine is broken";
             }
         }
     }
+
 }
 
 namespace Stateless.NameSpace6

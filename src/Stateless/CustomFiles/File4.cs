@@ -10,49 +10,28 @@ using System.Threading.Tasks;
 // because of the partial class
 namespace Stateless
 {
-    public partial class StateMachine<TState, TTrigger>
+    /// <summary>
+    /// Describes a fake class.
+    /// </summary>
+    public partial class FakePartialClass
     {
         /// <summary>
-        /// Describes a state transition.
+        /// Describes a fake method.
         /// </summary>
-        public class Transition
+        public static void PretendToDoStuff()
         {
-            readonly TState _source;
-            readonly TState _destination;
-            readonly TTrigger _trigger;
-
-            /// <summary>
-            /// Construct a transition.
-            /// </summary>
-            /// <param name="source">The state transitioned from.</param>
-            /// <param name="destination">The state transitioned to.</param>
-            /// <param name="trigger">The trigger that caused the transition.</param>
-            public Transition(TState source, TState destination, TTrigger trigger)
+            int a = 1;
+            int b = 3;
+            if (a + b == 4)
             {
-                _source = source;
-                _destination = destination;
-                _trigger = trigger;
+                string wow = "Amazing!";
+                wow += "What a surprise!";
             }
-
-            /// <summary>
-            /// The state transitioned from.
-            /// </summary>
-            public TState Source { get { return _source; } }
-
-            /// <summary>
-            /// The state transitioned to.
-            /// </summary>
-            public TState Destination { get { return _destination; } }
-
-            /// <summary>
-            /// The trigger that caused the transition.
-            /// </summary>
-            public TTrigger Trigger { get { return _trigger; } }
-
-            /// <summary>
-            /// True if the transition is a re-entry, i.e. the identity transition.
-            /// </summary>
-            public bool IsReentry { get { return Source.Equals(Destination); } }
+            else
+            {
+                string confused = "What the ...";
+                confused += "Your machine is broken";
+            }
         }
     }
 
@@ -60,6 +39,8 @@ namespace Stateless
     {
         public static Assembly GetAssembly(this Type type)
         {
+            FakePartialClass.PretendToDoStuff();
+            FakePartialClass.PretendToDoFakeStuff();
 #if PORTABLE_REFLECTION
             return type.GetTypeInfo().Assembly;
 #else
