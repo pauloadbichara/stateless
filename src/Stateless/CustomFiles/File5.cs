@@ -8,7 +8,7 @@ using Stateless.Graph;
 using Stateless.NameSpace7;
 using Stateless.Reflection;
 
-namespace Stateless
+namespace Stateless.NameSpace5
 {
 
     /// <summary>
