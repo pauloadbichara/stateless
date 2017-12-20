@@ -218,16 +218,16 @@
       <ModuleName>System.Text.RegularExpressions</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="F4-F3-81-B2-DA-BF-FE-62-79-C9-10-1F-21-C8-B6-FC-40-27-AF-DA">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Emit.ILGeneration.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Reflection.Emit.ILGeneration</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="5A-F8-55-1A-F5-DB-B0-8F-68-8E-E2-E0-8B-C6-BE-4B-6B-3E-AB-C5">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Private.Xml.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
       <ModuleName>System.Private.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-F3-81-B2-DA-BF-FE-62-79-C9-10-1F-21-C8-B6-FC-40-27-AF-DA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Emit.ILGeneration.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.ILGeneration</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="26-ED-09-CD-8E-EF-95-96-7E-CE-53-68-07-2E-7B-54-EC-AD-4E-77">
@@ -242,16 +242,16 @@
       <ModuleName>System.Xml.ReaderWriter</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="72-1F-7A-68-67-8F-F4-E3-28-87-27-C5-74-5B-A1-1B-65-32-D4-4D">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Primitives.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Reflection.Primitives</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="84-76-42-ED-63-9B-8F-C0-F4-DD-E9-6C-7A-EC-2A-76-8A-13-64-3C">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Tracing.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
       <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="72-1F-7A-68-67-8F-F4-E3-28-87-27-C5-74-5B-A1-1B-65-32-D4-4D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="54-BD-D0-BC-91-BA-D5-51-AE-07-31-F4-76-19-0C-5B-EF-27-73-FF">
@@ -278,28 +278,16 @@
       <ModuleName>System.Globalization</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="7B-4C-83-C4-D8-26-98-98-9A-DB-6F-07-3A-69-2E-3F-25-1C-05-26">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Tools.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.Diagnostics.Tools</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="B8-06-4B-F5-1A-48-CC-FF-4D-C2-D1-E1-7A-C1-52-0B-C5-DA-DE-2C">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Debug.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.Diagnostics.Debug</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="MissingPdb" hash="C3-6E-91-18-F0-B2-B0-9B-23-D1-2B-F6-B6-0A-A7-2F-BF-BC-15-0E">
       <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\Microsoft.Build.Utilities.Core.dll</ModulePath>
       <ModuleTime>2017-11-29T15:21:44Z</ModuleTime>
       <ModuleName>Microsoft.Build.Utilities.Core</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="24-13-D9-B0-43-9F-BE-FA-81-E0-00-6B-17-C3-7C-F7-32-80-22-A0">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.IO.Compression.dll</ModulePath>
+    <Module skippedDueTo="Filter" hash="7B-4C-83-C4-D8-26-98-98-9A-DB-6F-07-3A-69-2E-3F-25-1C-05-26">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Tools.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.IO.Compression</ModuleName>
+      <ModuleName>System.Diagnostics.Tools</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="E4-5C-E3-6E-25-9B-13-5A-BA-6C-60-0E-E8-14-F8-DA-DB-B8-7B-A1">
@@ -314,10 +302,10 @@
       <ModuleName>System.Reflection.TypeExtensions</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D1-DD-4F-5B-00-22-68-25-B3-6D-7D-BD-69-6F-2E-A7-23-9B-B8-9F">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Buffers.dll</ModulePath>
+    <Module skippedDueTo="Filter" hash="B8-06-4B-F5-1A-48-CC-FF-4D-C2-D1-E1-7A-C1-52-0B-C5-DA-DE-2C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Debug.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.Buffers</ModuleName>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3E-6B-97-E8-87-4F-F4-F6-AA-F5-7A-1A-6A-A5-70-31-09-48-F9-01">
@@ -326,10 +314,22 @@
       <ModuleName>System.ComponentModel.Primitives</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="24-13-D9-B0-43-9F-BE-FA-81-E0-00-6B-17-C3-7C-F7-32-80-22-A0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.IO.Compression.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
+      <ModuleName>System.IO.Compression</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="MissingPdb" hash="DE-D0-A3-F7-56-8E-74-6C-0E-5A-89-3B-7C-73-C7-E3-30-3A-85-00">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\Microsoft.Win32.Primitives.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
       <ModuleName>Microsoft.Win32.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D1-DD-4F-5B-00-22-68-25-B3-6D-7D-BD-69-6F-2E-A7-23-9B-B8-9F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Buffers.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
+      <ModuleName>System.Buffers</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B3-B5-E3-37-DA-FF-47-53-2D-78-0E-A6-51-E5-D3-EE-09-5B-F9-C3">
@@ -578,16 +578,16 @@
       <ModuleName>Microsoft.ApplicationInsights</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="5B-29-E1-68-39-57-CB-69-F0-E1-BA-54-2B-C7-3C-9C-BC-06-52-D3">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Text.Encoding.Extensions.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="MissingPdb" hash="E4-0D-DD-74-41-D1-01-68-67-47-DE-95-A1-03-1D-E0-0D-A8-DD-E5">
       <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
       <ModuleTime>2017-11-29T15:21:44Z</ModuleTime>
       <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5B-29-E1-68-39-57-CB-69-F0-E1-BA-54-2B-C7-3C-9C-BC-06-52-D3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="94-7F-AC-56-E4-06-B3-65-C0-2D-95-4B-25-68-BB-67-83-E4-45-1C">
@@ -644,16 +644,16 @@
       <ModuleName>System.Threading.Tasks.Dataflow</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="E1-78-6D-3B-ED-08-B9-74-2D-AA-9F-F7-BD-BC-22-63-88-27-E3-A5">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Security.Cryptography.Algorithms.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="MissingPdb" hash="71-2C-14-CD-31-9E-3F-51-A7-F5-F2-D3-FC-64-BB-08-6C-F5-3A-FA">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\netstandard.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
       <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E1-78-6D-3B-ED-08-B9-74-2D-AA-9F-F7-BD-BC-22-63-88-27-E3-A5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="20-39-76-3D-56-77-37-76-BC-D7-41-32-CE-E6-15-36-0B-BD-E8-98">
@@ -866,18 +866,6 @@
       <ModuleName>Microsoft.Win32.Primitives</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="38-2C-51-67-D8-DC-A4-79-2C-57-E4-3E-D6-55-DA-75-B4-5F-CD-D5">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.ComponentModel.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.ComponentModel</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="1E-0B-97-1B-36-71-9A-68-61-09-C3-E4-B4-C7-90-FE-3E-FF-35-CA">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Threading.Overlapped.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Threading.Overlapped</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="7B-4C-83-C4-D8-26-98-98-9A-DB-6F-07-3A-69-2E-3F-25-1C-05-26">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Diagnostics.Tools.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
@@ -902,6 +890,12 @@
       <ModuleName>System.Buffers</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="1E-0B-97-1B-36-71-9A-68-61-09-C3-E4-B4-C7-90-FE-3E-FF-35-CA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Threading.Overlapped.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Threading.Overlapped</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="B3-B5-E3-37-DA-FF-47-53-2D-78-0E-A6-51-E5-D3-EE-09-5B-F9-C3">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Net.Http.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
@@ -912,6 +906,12 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Security.Cryptography.X509Certificates.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
       <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="38-2C-51-67-D8-DC-A4-79-2C-57-E4-3E-D6-55-DA-75-B4-5F-CD-D5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.ComponentModel.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
+      <ModuleName>System.ComponentModel</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E3-CD-96-19-08-BC-53-33-27-04-1A-65-A7-B1-90-C0-FF-2B-E1-5D">
@@ -1184,6 +1184,12 @@
       <ModuleName>System.Reflection.Primitives</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="7F-A7-74-09-3D-3C-81-E1-63-80-72-1F-F7-DF-96-BB-33-04-9D-4F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="04-93-0C-94-5C-D0-28-0C-0A-B8-B6-1D-20-54-E6-67-E4-44-23-12">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Threading.Tasks.Parallel.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
@@ -1202,28 +1208,22 @@
       <ModuleName>System.Runtime.CompilerServices.Unsafe</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="8E-E1-27-50-A2-91-64-F5-0B-29-DE-E4-91-22-20-33-8C-C3-26-2F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.IO.MemoryMappedFiles.dll</ModulePath>
+      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
+      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="MissingPdb" hash="C3-6E-91-18-F0-B2-B0-9B-23-D1-2B-F6-B6-0A-A7-2F-BF-BC-15-0E">
       <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\Microsoft.Build.Utilities.Core.dll</ModulePath>
       <ModuleTime>2017-11-29T15:21:44Z</ModuleTime>
       <ModuleName>Microsoft.Build.Utilities.Core</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="7F-A7-74-09-3D-3C-81-E1-63-80-72-1F-F7-DF-96-BB-33-04-9D-4F">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Reflection.Metadata.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:26Z</ModuleTime>
-      <ModuleName>System.Reflection.Metadata</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="5F-35-89-7E-DB-C8-67-17-CB-40-B5-7F-6F-22-31-75-2A-4E-56-D8">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.Net.Primitives.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
       <ModuleName>System.Net.Primitives</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="8E-E1-27-50-A2-91-64-F5-0B-29-DE-E4-91-22-20-33-8C-C3-26-2F">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.IO.MemoryMappedFiles.dll</ModulePath>
-      <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
-      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="F4-F3-81-B2-DA-BF-FE-62-79-C9-10-1F-21-C8-B6-FC-40-27-AF-DA">
@@ -1298,6 +1298,12 @@
       <ModuleName>NuGet.Versioning</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="MissingPdb" hash="00-DD-F5-07-3B-ED-97-8C-D2-3E-29-B8-BD-93-E1-88-21-76-D6-B1">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\Microsoft.Extensions.DependencyModel.dll</ModulePath>
+      <ModuleTime>2017-11-29T15:21:44Z</ModuleTime>
+      <ModuleName>Microsoft.Extensions.DependencyModel</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="MissingPdb" hash="9F-84-D3-EE-F0-01-38-56-C8-52-14-65-82-0C-81-E0-21-D0-20-0A">
       <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\NuGet.Packaging.Core.dll</ModulePath>
       <ModuleTime>2017-11-29T15:21:22Z</ModuleTime>
@@ -1314,12 +1320,6 @@
       <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\NuGet.Packaging.dll</ModulePath>
       <ModuleTime>2017-11-29T15:21:22Z</ModuleTime>
       <ModuleName>NuGet.Packaging</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="MissingPdb" hash="00-DD-F5-07-3B-ED-97-8C-D2-3E-29-B8-BD-93-E1-88-21-76-D6-B1">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.2.0-preview1-007622\Microsoft.Extensions.DependencyModel.dll</ModulePath>
-      <ModuleTime>2017-11-29T15:21:44Z</ModuleTime>
-      <ModuleName>Microsoft.Extensions.DependencyModel</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="EC-96-AF-C4-65-1B-AC-D8-46-6F-3D-C6-E9-DA-22-94-40-B8-CF-3D">
@@ -2234,9 +2234,9 @@
       <ModuleName>System.AppContext</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="F3-9F-9A-96-1D-B4-DA-91-E8-92-F1-95-DE-A4-01-E2-6F-D4-69-77">
+    <Module skippedDueTo="MissingPdb" hash="29-4D-8F-AC-8C-60-45-FB-06-89-F5-FE-2C-39-80-4E-23-D8-07-3C">
       <ModulePath>C:\codebases\stateless_paulo\test\Stateless.Tests\bin\Debug\netcoreapp1.0\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:47:31.2365323Z</ModuleTime>
+      <ModuleTime>2017-12-20T19:55:01.5667142Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Classes />
     </Module>
@@ -2432,10 +2432,10 @@
       <ModuleName>xunit.execution.dotnet</ModuleName>
       <Classes />
     </Module>
-    <Module hash="95-2B-4F-BC-47-EE-D4-23-1C-E8-0B-CC-59-19-5A-7C-1C-9A-12-00">
+    <Module hash="91-23-C3-5D-9D-F7-BD-C6-9D-D9-7F-54-8E-05-50-34-6F-D6-D4-CD">
       <Summary numSequencePoints="2223" visitedSequencePoints="1710" numBranchPoints="955" visitedBranchPoints="635" sequenceCoverage="76.92" branchCoverage="66.49" maxCyclomaticComplexity="17" minCyclomaticComplexity="0" visitedClasses="111" numClasses="155" visitedMethods="417" numMethods="553" />
       <ModulePath>C:\codebases\stateless_paulo\test\Stateless.Tests\bin\Debug\netcoreapp1.0\Stateless.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:47:28.1740871Z</ModuleTime>
+      <ModuleTime>2017-12-20T19:54:33.8092225Z</ModuleTime>
       <ModuleName>Stateless</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\codebases\stateless_paulo\src\Stateless\StateMachine.Async.cs" />
@@ -2481,9 +2481,9 @@
         <File uid="142" fullPath="C:\codebases\stateless_paulo\src\Stateless\Graph\State.cs" />
         <File uid="143" fullPath="C:\codebases\stateless_paulo\src\Stateless\Graph\StateGraph.cs" />
         <File uid="145" fullPath="C:\codebases\stateless_paulo\src\Stateless\Graph\SuperState.cs" />
-        <File uid="146" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File6.cs" />
-        <File uid="147" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File5.cs" />
-        <File uid="151" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File4.cs" />
+        <File uid="146" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File5.cs" />
+        <File uid="150" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File4.cs" />
+        <File uid="153" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File6.cs" />
         <File uid="154" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File3.cs" />
         <File uid="157" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File2.cs" />
         <File uid="159" fullPath="C:\codebases\stateless_paulo\src\Stateless\CustomFiles\File1.cs" />
@@ -10595,7 +10595,7 @@
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663402</MetadataToken>
-              <Name>System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace7.ActionInfo&gt; Stateless.Reflection.StateInfo::get_EntryActions()</Name>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace5.NameSpace7.ActionInfo&gt; Stateless.Reflection.StateInfo::get_EntryActions()</Name>
               <FileRef uid="133" />
               <SequencePoints>
                 <SequencePoint vc="107" uspid="2343" ordinal="0" offset="0" sl="124" sc="55" el="124" ec="59" bec="0" bev="0" fileid="133" />
@@ -10606,7 +10606,7 @@
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663403</MetadataToken>
-              <Name>System.Void Stateless.Reflection.StateInfo::set_EntryActions(System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace7.ActionInfo&gt;)</Name>
+              <Name>System.Void Stateless.Reflection.StateInfo::set_EntryActions(System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace5.NameSpace7.ActionInfo&gt;)</Name>
               <FileRef uid="133" />
               <SequencePoints>
                 <SequencePoint vc="85" uspid="2344" ordinal="0" offset="0" sl="124" sc="60" el="124" ec="72" bec="0" bev="0" fileid="133" />
@@ -10854,7 +10854,7 @@
             <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663395</MetadataToken>
-              <Name>System.Void Stateless.Reflection.StateInfo::.ctor(System.Object,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.IgnoredTransitionInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace7.ActionInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;)</Name>
+              <Name>System.Void Stateless.Reflection.StateInfo::.ctor(System.Object,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.IgnoredTransitionInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.NameSpace5.NameSpace7.ActionInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;,System.Collections.Generic.IEnumerable`1&lt;Stateless.Reflection.InvocationInfo&gt;)</Name>
               <FileRef uid="133" />
               <SequencePoints>
                 <SequencePoint vc="85" uspid="2457" ordinal="0" offset="0" sl="78" sc="9" el="84" ec="53" bec="0" bev="0" fileid="133" />
@@ -10929,7 +10929,7 @@
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663760</MetadataToken>
-              <Name>Stateless.NameSpace7.ActionInfo Stateless.Reflection.StateInfo/&lt;&gt;c__0`2::&lt;CreateStateInfo&gt;b__0_0(Stateless.StateMachine`2/EntryActionBehavior&lt;TState,TTrigger&gt;)</Name>
+              <Name>Stateless.NameSpace5.NameSpace7.ActionInfo Stateless.Reflection.StateInfo/&lt;&gt;c__0`2::&lt;CreateStateInfo&gt;b__0_0(Stateless.StateMachine`2/EntryActionBehavior&lt;TState,TTrigger&gt;)</Name>
               <FileRef uid="133" />
               <SequencePoints>
                 <SequencePoint vc="51" uspid="2489" ordinal="0" offset="0" sl="35" sc="62" el="35" ec="82" bec="0" bev="0" fileid="133" />
@@ -11362,7 +11362,7 @@
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663776</MetadataToken>
-              <Name>System.String Stateless.Graph.IGraphStyle/&lt;&gt;c::&lt;FormatAllTransitions&gt;b__4_3(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>System.String Stateless.Graph.IGraphStyle/&lt;&gt;c::&lt;FormatAllTransitions&gt;b__4_3(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="140" />
               <SequencePoints>
                 <SequencePoint vc="2" uspid="2604" ordinal="0" offset="0" sl="93" sc="69" el="93" ec="89" bec="0" bev="0" fileid="140" />
@@ -11384,7 +11384,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663778</MetadataToken>
-              <Name>System.String Stateless.Graph.IGraphStyle/&lt;&gt;c::&lt;FormatAllTransitions&gt;b__4_5(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>System.String Stateless.Graph.IGraphStyle/&lt;&gt;c::&lt;FormatAllTransitions&gt;b__4_5(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="140" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="2606" ordinal="0" offset="0" sl="101" sc="73" el="101" ec="93" bec="0" bev="0" fileid="140" />
@@ -12019,223 +12019,139 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
-          <FullName>Stateless.NameSpace7.ActionInfo</FullName>
-          <Methods>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663466</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.NameSpace7.ActionInfo::get_Method()</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="51" uspid="2922" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="2922" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="146" />
-            </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663467</MetadataToken>
-              <Name>System.Void Stateless.NameSpace7.ActionInfo::set_Method(Stateless.Reflection.InvocationInfo)</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="51" uspid="2923" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="58" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="2923" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="58" bec="0" bev="0" fileid="146" />
-            </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663468</MetadataToken>
-              <Name>System.String Stateless.NameSpace7.ActionInfo::get_FromTrigger()</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="21" uspid="2924" ordinal="0" offset="0" sl="21" sc="37" el="21" ec="41" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="21" uspid="2924" ordinal="0" offset="0" sl="21" sc="37" el="21" ec="41" bec="0" bev="0" fileid="146" />
-            </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
-              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663469</MetadataToken>
-              <Name>System.Void Stateless.NameSpace7.ActionInfo::set_FromTrigger(System.String)</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="51" uspid="2925" ordinal="0" offset="0" sl="21" sc="42" el="21" ec="55" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="2925" ordinal="0" offset="0" sl="21" sc="42" el="21" ec="55" bec="0" bev="0" fileid="146" />
-            </Method>
-            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663470</MetadataToken>
-              <Name>Stateless.NameSpace7.ActionInfo Stateless.NameSpace7.ActionInfo::Create(Stateless.StateMachine`2/EntryActionBehavior&lt;TState,TTrigger&gt;)</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="51" uspid="2926" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2927" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="179" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2928" ordinal="2" offset="8" sl="27" sc="13" el="27" ec="34" bec="2" bev="2" fileid="146" />
-                <SequencePoint vc="26" uspid="2929" ordinal="3" offset="16" sl="28" sc="17" el="28" ec="93" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="25" uspid="2930" ordinal="4" offset="50" sl="30" sc="17" el="30" ec="70" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2931" ordinal="5" offset="65" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints>
-                <BranchPoint vc="26" uspid="2932" ordinal="0" offset="14" sl="27" path="0" offsetend="16" fileid="146" />
-                <BranchPoint vc="25" uspid="2933" ordinal="1" offset="14" sl="27" path="1" offsetend="50" fileid="146" />
-              </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="2926" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="146" />
-            </Method>
-            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
-              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663471</MetadataToken>
-              <Name>System.Void Stateless.NameSpace7.ActionInfo::.ctor(Stateless.Reflection.InvocationInfo,System.String)</Name>
-              <FileRef uid="146" />
-              <SequencePoints>
-                <SequencePoint vc="51" uspid="2934" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="69" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2935" ordinal="1" offset="7" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2936" ordinal="2" offset="8" sl="38" sc="13" el="38" ec="29" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2937" ordinal="3" offset="16" sl="39" sc="13" el="39" ec="39" bec="0" bev="0" fileid="146" />
-                <SequencePoint vc="51" uspid="2938" ordinal="4" offset="24" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="146" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="2934" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="69" bec="0" bev="0" fileid="146" />
-            </Method>
-          </Methods>
-        </Class>
-        <Class>
           <Summary numSequencePoints="56" visitedSequencePoints="56" numBranchPoints="19" visitedBranchPoints="16" sequenceCoverage="100" branchCoverage="84.21" maxCyclomaticComplexity="9" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="5" />
           <FullName>Stateless.NameSpace6.UmlDotGraphStyle</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663472</MetadataToken>
+              <MetadataToken>100663466</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle::GetPrefix()</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="19" uspid="2939" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="19" uspid="2940" ordinal="1" offset="1" sl="52" sc="13" el="55" ec="44" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="19" uspid="2941" ordinal="2" offset="9" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="19" uspid="2922" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="19" uspid="2923" ordinal="1" offset="1" sl="52" sc="13" el="55" ec="44" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="19" uspid="2924" ordinal="2" offset="9" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="19" uspid="2939" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="19" uspid="2922" ordinal="0" offset="0" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="6" nPathComplexity="2" sequenceCoverage="100" branchCoverage="66.67" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="21" visitedSequencePoints="21" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="66.67" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663473</MetadataToken>
+              <MetadataToken>100663467</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle::FormatOneCluster(Stateless.Graph.SuperState)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="2942" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2943" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="51" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2944" ordinal="2" offset="7" sl="69" sc="13" el="69" ec="50" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2945" ordinal="3" offset="14" sl="71" sc="13" el="71" ec="65" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2946" ordinal="4" offset="21" sl="73" sc="13" el="73" ec="89" bec="2" bev="1" fileid="147" />
-                <SequencePoint vc="1" uspid="2947" ordinal="5" offset="56" sl="74" sc="13" el="74" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2948" ordinal="6" offset="57" sl="75" sc="17" el="75" ec="47" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2949" ordinal="7" offset="69" sl="76" sc="17" el="76" ec="104" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2950" ordinal="8" offset="123" sl="77" sc="17" el="77" ec="102" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2951" ordinal="9" offset="177" sl="78" sc="13" el="78" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2952" ordinal="10" offset="178" sl="80" sc="13" el="83" ec="62" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2953" ordinal="11" offset="270" sl="85" sc="13" el="85" ec="20" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2954" ordinal="12" offset="271" sl="85" sc="38" el="85" ec="57" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="2955" ordinal="13" offset="286" sl="85" sc="22" el="85" ec="34" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="2956" ordinal="14" offset="295" sl="86" sc="13" el="86" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="2957" ordinal="15" offset="296" sl="87" sc="17" el="87" ec="71" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="2958" ordinal="16" offset="311" sl="88" sc="13" el="88" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="3" uspid="2959" ordinal="17" offset="312" sl="85" sc="35" el="85" ec="37" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2960" ordinal="18" offset="338" sl="90" sc="13" el="90" ec="48" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2961" ordinal="19" offset="350" sl="92" sc="13" el="92" ec="46" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="1" uspid="2962" ordinal="20" offset="355" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="1" uspid="2925" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2926" ordinal="1" offset="1" sl="68" sc="13" el="68" ec="51" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2927" ordinal="2" offset="7" sl="69" sc="13" el="69" ec="50" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2928" ordinal="3" offset="14" sl="71" sc="13" el="71" ec="65" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2929" ordinal="4" offset="21" sl="73" sc="13" el="73" ec="89" bec="2" bev="1" fileid="146" />
+                <SequencePoint vc="1" uspid="2930" ordinal="5" offset="56" sl="74" sc="13" el="74" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2931" ordinal="6" offset="57" sl="75" sc="17" el="75" ec="47" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2932" ordinal="7" offset="69" sl="76" sc="17" el="76" ec="104" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2933" ordinal="8" offset="123" sl="77" sc="17" el="77" ec="102" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2934" ordinal="9" offset="177" sl="78" sc="13" el="78" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2935" ordinal="10" offset="178" sl="80" sc="13" el="83" ec="62" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2936" ordinal="11" offset="270" sl="85" sc="13" el="85" ec="20" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2937" ordinal="12" offset="271" sl="85" sc="38" el="85" ec="57" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="2938" ordinal="13" offset="286" sl="85" sc="22" el="85" ec="34" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="2939" ordinal="14" offset="295" sl="86" sc="13" el="86" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="2940" ordinal="15" offset="296" sl="87" sc="17" el="87" ec="71" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="2941" ordinal="16" offset="311" sl="88" sc="13" el="88" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="3" uspid="2942" ordinal="17" offset="312" sl="85" sc="35" el="85" ec="37" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2943" ordinal="18" offset="338" sl="90" sc="13" el="90" ec="48" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2944" ordinal="19" offset="350" sl="92" sc="13" el="92" ec="46" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="1" uspid="2945" ordinal="20" offset="355" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="1" uspid="2965" ordinal="2" offset="54" sl="73" path="0" offsetend="56" fileid="147" />
-                <BranchPoint vc="0" uspid="2966" ordinal="3" offset="54" sl="73" path="1" offsetend="178" fileid="147" />
+                <BranchPoint vc="1" uspid="2948" ordinal="2" offset="54" sl="73" path="0" offsetend="56" fileid="146" />
+                <BranchPoint vc="0" uspid="2949" ordinal="3" offset="54" sl="73" path="1" offsetend="178" fileid="146" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="2942" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="2925" ordinal="0" offset="0" sl="67" sc="9" el="67" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="5" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="11" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663474</MetadataToken>
+              <MetadataToken>100663468</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle::FormatOneState(Stateless.Graph.State)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="35" uspid="2973" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="35" uspid="2974" ordinal="1" offset="1" sl="102" sc="13" el="102" ec="83" bec="2" bev="2" fileid="147" />
-                <SequencePoint vc="26" uspid="2975" ordinal="2" offset="35" sl="103" sc="17" el="103" ec="84" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2976" ordinal="3" offset="68" sl="105" sc="13" el="105" ec="79" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2977" ordinal="4" offset="96" sl="107" sc="13" el="107" ec="50" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2978" ordinal="5" offset="102" sl="108" sc="13" el="108" ec="77" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2979" ordinal="6" offset="151" sl="109" sc="13" el="109" ec="75" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2980" ordinal="7" offset="200" sl="111" sc="13" el="111" ec="41" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2981" ordinal="8" offset="218" sl="113" sc="13" el="113" ec="27" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="9" uspid="2982" ordinal="9" offset="230" sl="115" sc="13" el="115" ec="22" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="35" uspid="2983" ordinal="10" offset="234" sl="116" sc="9" el="116" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="35" uspid="2956" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="35" uspid="2957" ordinal="1" offset="1" sl="102" sc="13" el="102" ec="83" bec="2" bev="2" fileid="146" />
+                <SequencePoint vc="26" uspid="2958" ordinal="2" offset="35" sl="103" sc="17" el="103" ec="84" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2959" ordinal="3" offset="68" sl="105" sc="13" el="105" ec="79" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2960" ordinal="4" offset="96" sl="107" sc="13" el="107" ec="50" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2961" ordinal="5" offset="102" sl="108" sc="13" el="108" ec="77" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2962" ordinal="6" offset="151" sl="109" sc="13" el="109" ec="75" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2963" ordinal="7" offset="200" sl="111" sc="13" el="111" ec="41" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2964" ordinal="8" offset="218" sl="113" sc="13" el="113" ec="27" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="9" uspid="2965" ordinal="9" offset="230" sl="115" sc="13" el="115" ec="22" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="35" uspid="2966" ordinal="10" offset="234" sl="116" sc="9" el="116" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="26" uspid="2986" ordinal="2" offset="33" sl="102" path="0" offsetend="35" fileid="147" />
-                <BranchPoint vc="9" uspid="2987" ordinal="3" offset="33" sl="102" path="1" offsetend="68" fileid="147" />
+                <BranchPoint vc="26" uspid="2969" ordinal="2" offset="33" sl="102" path="0" offsetend="35" fileid="146" />
+                <BranchPoint vc="9" uspid="2970" ordinal="3" offset="33" sl="102" path="1" offsetend="68" fileid="146" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="35" uspid="2973" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="35" uspid="2956" ordinal="0" offset="0" sl="101" sc="9" el="101" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="9" nPathComplexity="32" sequenceCoverage="100" branchCoverage="81.82" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="11" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="81.82" maxCyclomaticComplexity="9" minCyclomaticComplexity="9" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663475</MetadataToken>
+              <MetadataToken>100663469</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle::FormatOneTransition(System.String,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;,System.String,System.Collections.Generic.IEnumerable`1&lt;System.String&gt;)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="23" uspid="2992" ordinal="0" offset="0" sl="128" sc="9" el="128" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="2993" ordinal="1" offset="1" sl="129" sc="13" el="129" ec="42" bec="2" bev="1" fileid="147" />
-                <SequencePoint vc="23" uspid="2994" ordinal="2" offset="12" sl="131" sc="13" el="131" ec="38" bec="4" bev="4" fileid="147" />
-                <SequencePoint vc="3" uspid="2995" ordinal="3" offset="31" sl="132" sc="17" el="132" ec="61" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="2996" ordinal="4" offset="54" sl="134" sc="13" el="134" ec="36" bec="2" bev="2" fileid="147" />
-                <SequencePoint vc="8" uspid="2997" ordinal="5" offset="68" sl="135" sc="13" el="135" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="2998" ordinal="6" offset="69" sl="136" sc="17" el="136" ec="24" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="2999" ordinal="7" offset="70" sl="136" sc="38" el="136" ec="44" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3000" ordinal="8" offset="80" sl="136" sc="26" el="136" ec="34" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3001" ordinal="9" offset="88" sl="137" sc="17" el="137" ec="18" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3002" ordinal="10" offset="89" sl="138" sc="21" el="138" ec="42" bec="2" bev="1" fileid="147" />
-                <SequencePoint vc="8" uspid="3003" ordinal="11" offset="104" sl="139" sc="25" el="139" ec="38" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3004" ordinal="12" offset="116" sl="140" sc="21" el="140" ec="47" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3005" ordinal="13" offset="135" sl="141" sc="17" el="141" ec="18" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="16" uspid="3006" ordinal="14" offset="136" sl="136" sc="35" el="136" ec="37" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="8" uspid="3007" ordinal="15" offset="157" sl="142" sc="13" el="142" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3008" ordinal="16" offset="158" sl="144" sc="13" el="144" ec="94" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3009" ordinal="17" offset="171" sl="145" sc="9" el="145" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="23" uspid="2975" ordinal="0" offset="0" sl="128" sc="9" el="128" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="2976" ordinal="1" offset="1" sl="129" sc="13" el="129" ec="42" bec="2" bev="1" fileid="146" />
+                <SequencePoint vc="23" uspid="2977" ordinal="2" offset="12" sl="131" sc="13" el="131" ec="38" bec="4" bev="4" fileid="146" />
+                <SequencePoint vc="3" uspid="2978" ordinal="3" offset="31" sl="132" sc="17" el="132" ec="61" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="2979" ordinal="4" offset="54" sl="134" sc="13" el="134" ec="36" bec="2" bev="2" fileid="146" />
+                <SequencePoint vc="8" uspid="2980" ordinal="5" offset="68" sl="135" sc="13" el="135" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2981" ordinal="6" offset="69" sl="136" sc="17" el="136" ec="24" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2982" ordinal="7" offset="70" sl="136" sc="38" el="136" ec="44" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2983" ordinal="8" offset="80" sl="136" sc="26" el="136" ec="34" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2984" ordinal="9" offset="88" sl="137" sc="17" el="137" ec="18" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2985" ordinal="10" offset="89" sl="138" sc="21" el="138" ec="42" bec="2" bev="1" fileid="146" />
+                <SequencePoint vc="8" uspid="2986" ordinal="11" offset="104" sl="139" sc="25" el="139" ec="38" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2987" ordinal="12" offset="116" sl="140" sc="21" el="140" ec="47" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2988" ordinal="13" offset="135" sl="141" sc="17" el="141" ec="18" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="16" uspid="2989" ordinal="14" offset="136" sl="136" sc="35" el="136" ec="37" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="8" uspid="2990" ordinal="15" offset="157" sl="142" sc="13" el="142" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="2991" ordinal="16" offset="158" sl="144" sc="13" el="144" ec="94" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="2992" ordinal="17" offset="171" sl="145" sc="9" el="145" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="3010" ordinal="0" offset="3" sl="129" path="0" offsetend="5" fileid="147" />
-                <BranchPoint vc="23" uspid="3011" ordinal="1" offset="3" sl="129" path="1" offsetend="11" fileid="147" />
-                <BranchPoint vc="2" uspid="3012" ordinal="2" offset="13" sl="131" path="0" offsetend="15" fileid="147" />
-                <BranchPoint vc="21" uspid="3013" ordinal="3" offset="13" sl="131" path="1" offsetend="18" fileid="147" />
-                <BranchPoint vc="3" uspid="3014" ordinal="4" offset="29" sl="131" path="0" offsetend="31" fileid="147" />
-                <BranchPoint vc="20" uspid="3015" ordinal="5" offset="29" sl="131" path="1" offsetend="54" fileid="147" />
-                <BranchPoint vc="8" uspid="3016" ordinal="6" offset="66" sl="134" path="0" offsetend="68" fileid="147" />
-                <BranchPoint vc="15" uspid="3017" ordinal="7" offset="66" sl="134" path="1" offsetend="158" fileid="147" />
-                <BranchPoint vc="8" uspid="3018" ordinal="8" offset="102" sl="138" path="0" offsetend="104" fileid="147" />
-                <BranchPoint vc="0" uspid="3019" ordinal="9" offset="102" sl="138" path="1" offsetend="116" fileid="147" />
+                <BranchPoint vc="0" uspid="2993" ordinal="0" offset="3" sl="129" path="0" offsetend="5" fileid="146" />
+                <BranchPoint vc="23" uspid="2994" ordinal="1" offset="3" sl="129" path="1" offsetend="11" fileid="146" />
+                <BranchPoint vc="2" uspid="2995" ordinal="2" offset="13" sl="131" path="0" offsetend="15" fileid="146" />
+                <BranchPoint vc="21" uspid="2996" ordinal="3" offset="13" sl="131" path="1" offsetend="18" fileid="146" />
+                <BranchPoint vc="3" uspid="2997" ordinal="4" offset="29" sl="131" path="0" offsetend="31" fileid="146" />
+                <BranchPoint vc="20" uspid="2998" ordinal="5" offset="29" sl="131" path="1" offsetend="54" fileid="146" />
+                <BranchPoint vc="8" uspid="2999" ordinal="6" offset="66" sl="134" path="0" offsetend="68" fileid="146" />
+                <BranchPoint vc="15" uspid="3000" ordinal="7" offset="66" sl="134" path="1" offsetend="158" fileid="146" />
+                <BranchPoint vc="8" uspid="3001" ordinal="8" offset="102" sl="138" path="0" offsetend="104" fileid="146" />
+                <BranchPoint vc="0" uspid="3002" ordinal="9" offset="102" sl="138" path="1" offsetend="116" fileid="146" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="2992" ordinal="0" offset="0" sl="128" sc="9" el="128" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="2975" ordinal="0" offset="0" sl="128" sc="9" el="128" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663476</MetadataToken>
+              <MetadataToken>100663470</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle::FormatOneDecisionNode(System.String,System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="3022" ordinal="0" offset="0" sl="154" sc="9" el="154" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="3" uspid="3023" ordinal="1" offset="1" sl="155" sc="13" el="155" ec="86" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="3" uspid="3024" ordinal="2" offset="21" sl="156" sc="9" el="156" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="3" uspid="3005" ordinal="0" offset="0" sl="154" sc="9" el="154" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="3" uspid="3006" ordinal="1" offset="1" sl="155" sc="13" el="155" ec="86" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="3" uspid="3007" ordinal="2" offset="21" sl="156" sc="9" el="156" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="3022" ordinal="0" offset="0" sl="154" sc="9" el="154" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="3005" ordinal="0" offset="0" sl="154" sc="9" el="154" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663477</MetadataToken>
+              <MetadataToken>100663471</MetadataToken>
               <Name>System.Void Stateless.NameSpace6.UmlDotGraphStyle::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="19" uspid="3025" ordinal="0" offset="0" />
+              <MethodPoint vc="19" uspid="3008" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
@@ -12247,14 +12163,14 @@
               <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663783</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle/StringFormatter::FormatOneLine(System.String,System.String,System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="23" uspid="3026" ordinal="0" offset="0" sl="61" sc="13" el="61" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3027" ordinal="1" offset="1" sl="62" sc="17" el="62" ec="113" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3028" ordinal="2" offset="51" sl="63" sc="13" el="63" ec="14" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="23" uspid="3009" ordinal="0" offset="0" sl="61" sc="13" el="61" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3010" ordinal="1" offset="1" sl="62" sc="17" el="62" ec="113" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3011" ordinal="2" offset="51" sl="63" sc="13" el="63" ec="14" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3026" ordinal="0" offset="0" sl="61" sc="13" el="61" ec="14" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3009" ordinal="0" offset="0" sl="61" sc="13" el="61" ec="14" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
@@ -12262,7 +12178,7 @@
               <Name>System.Void Stateless.NameSpace6.UmlDotGraphStyle/StringFormatter::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="3029" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="3012" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
@@ -12276,7 +12192,7 @@
               <Name>System.Void Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::.cctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="1" uspid="3030" ordinal="0" offset="0" />
+              <MethodPoint vc="1" uspid="3013" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
@@ -12284,51 +12200,51 @@
               <Name>System.Void Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="1" uspid="3031" ordinal="0" offset="0" />
+              <MethodPoint vc="1" uspid="3014" ordinal="0" offset="0" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663787</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::&lt;FormatOneCluster&gt;b__2_0(System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="1" uspid="3032" ordinal="0" offset="0" sl="76" sc="81" el="76" ec="100" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="1" uspid="3015" ordinal="0" offset="0" sl="76" sc="81" el="76" ec="100" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="3032" ordinal="0" offset="0" sl="76" sc="81" el="76" ec="100" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="3015" ordinal="0" offset="0" sl="76" sc="81" el="76" ec="100" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663788</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::&lt;FormatOneCluster&gt;b__2_1(System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3033" ordinal="0" offset="0" sl="77" sc="80" el="77" ec="98" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="0" uspid="3016" ordinal="0" offset="0" sl="77" sc="80" el="77" ec="98" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="3033" ordinal="0" offset="0" sl="77" sc="80" el="77" ec="98" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="3016" ordinal="0" offset="0" sl="77" sc="80" el="77" ec="98" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663789</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::&lt;FormatOneState&gt;b__3_0(System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="6" uspid="3034" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="74" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="6" uspid="3017" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="74" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="3034" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="74" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="3017" ordinal="0" offset="0" sl="108" sc="58" el="108" ec="74" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663790</MetadataToken>
               <Name>System.String Stateless.NameSpace6.UmlDotGraphStyle/&lt;&gt;c::&lt;FormatOneState&gt;b__3_1(System.String)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="4" uspid="3035" ordinal="0" offset="0" sl="109" sc="57" el="109" ec="72" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="4" uspid="3018" ordinal="0" offset="0" sl="109" sc="57" el="109" ec="72" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="3035" ordinal="0" offset="0" sl="109" sc="57" el="109" ec="72" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="3018" ordinal="0" offset="0" sl="109" sc="57" el="109" ec="72" bec="0" bev="0" fileid="146" />
             </Method>
           </Methods>
         </Class>
@@ -12338,86 +12254,86 @@
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663478</MetadataToken>
+              <MetadataToken>100663472</MetadataToken>
               <Name>Stateless.Reflection.TriggerInfo Stateless.NameSpace6.Transition::get_Trigger()</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="26" uspid="3036" ordinal="0" offset="0" sl="167" sc="38" el="167" ec="42" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="26" uspid="3019" ordinal="0" offset="0" sl="167" sc="38" el="167" ec="42" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="26" uspid="3036" ordinal="0" offset="0" sl="167" sc="38" el="167" ec="42" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="26" uspid="3019" ordinal="0" offset="0" sl="167" sc="38" el="167" ec="42" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663479</MetadataToken>
+              <MetadataToken>100663473</MetadataToken>
               <Name>System.Void Stateless.NameSpace6.Transition::set_Trigger(Stateless.Reflection.TriggerInfo)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="23" uspid="3037" ordinal="0" offset="0" sl="167" sc="43" el="167" ec="55" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="23" uspid="3020" ordinal="0" offset="0" sl="167" sc="43" el="167" ec="55" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3037" ordinal="0" offset="0" sl="167" sc="43" el="167" ec="55" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3020" ordinal="0" offset="0" sl="167" sc="43" el="167" ec="55" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663480</MetadataToken>
+              <MetadataToken>100663474</MetadataToken>
               <Name>System.Boolean Stateless.NameSpace6.Transition::get_ExecuteEntryExitActions()</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="6" uspid="3038" ordinal="0" offset="0" sl="177" sc="47" el="177" ec="51" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="6" uspid="3021" ordinal="0" offset="0" sl="177" sc="47" el="177" ec="51" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="3038" ordinal="0" offset="0" sl="177" sc="47" el="177" ec="51" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="3021" ordinal="0" offset="0" sl="177" sc="47" el="177" ec="51" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663481</MetadataToken>
+              <MetadataToken>100663475</MetadataToken>
               <Name>System.Void Stateless.NameSpace6.Transition::set_ExecuteEntryExitActions(System.Boolean)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="3" uspid="3039" ordinal="0" offset="0" sl="177" sc="52" el="177" ec="66" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="3" uspid="3022" ordinal="0" offset="0" sl="177" sc="52" el="177" ec="66" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="3039" ordinal="0" offset="0" sl="177" sc="52" el="177" ec="66" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="3022" ordinal="0" offset="0" sl="177" sc="52" el="177" ec="66" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663482</MetadataToken>
+              <MetadataToken>100663476</MetadataToken>
               <Name>Stateless.Graph.State Stateless.NameSpace6.Transition::get_SourceState()</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="28" uspid="3040" ordinal="0" offset="0" sl="182" sc="36" el="182" ec="40" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="28" uspid="3023" ordinal="0" offset="0" sl="182" sc="36" el="182" ec="40" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="28" uspid="3040" ordinal="0" offset="0" sl="182" sc="36" el="182" ec="40" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="28" uspid="3023" ordinal="0" offset="0" sl="182" sc="36" el="182" ec="40" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
               <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663483</MetadataToken>
+              <MetadataToken>100663477</MetadataToken>
               <Name>System.Void Stateless.NameSpace6.Transition::set_SourceState(Stateless.Graph.State)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="23" uspid="3041" ordinal="0" offset="0" sl="182" sc="41" el="182" ec="53" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="23" uspid="3024" ordinal="0" offset="0" sl="182" sc="41" el="182" ec="53" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3041" ordinal="0" offset="0" sl="182" sc="41" el="182" ec="53" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3024" ordinal="0" offset="0" sl="182" sc="41" el="182" ec="53" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663484</MetadataToken>
+              <MetadataToken>100663478</MetadataToken>
               <Name>System.Void Stateless.NameSpace6.Transition::.ctor(Stateless.Graph.State,Stateless.Reflection.TriggerInfo)</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="23" uspid="3042" ordinal="0" offset="0" sl="172" sc="9" el="172" ec="82" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3043" ordinal="1" offset="11" sl="177" sc="71" el="177" ec="75" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3044" ordinal="2" offset="18" sl="189" sc="9" el="189" ec="66" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3045" ordinal="3" offset="25" sl="190" sc="9" el="190" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3046" ordinal="4" offset="26" sl="191" sc="13" el="191" ec="39" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3047" ordinal="5" offset="34" sl="192" sc="13" el="192" ec="31" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="23" uspid="3048" ordinal="6" offset="42" sl="193" sc="9" el="193" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="23" uspid="3025" ordinal="0" offset="0" sl="172" sc="9" el="172" ec="82" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3026" ordinal="1" offset="11" sl="177" sc="71" el="177" ec="75" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3027" ordinal="2" offset="18" sl="189" sc="9" el="189" ec="66" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3028" ordinal="3" offset="25" sl="190" sc="9" el="190" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3029" ordinal="4" offset="26" sl="191" sc="13" el="191" ec="39" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3030" ordinal="5" offset="34" sl="192" sc="13" el="192" ec="31" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="23" uspid="3031" ordinal="6" offset="42" sl="193" sc="9" el="193" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3042" ordinal="0" offset="0" sl="172" sc="9" el="172" ec="82" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="23" uspid="3025" ordinal="0" offset="0" sl="172" sc="9" el="172" ec="82" bec="0" bev="0" fileid="146" />
             </Method>
           </Methods>
         </Class>
@@ -12427,65 +12343,65 @@
           <Methods>
             <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="73.33" branchCoverage="66.67" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
               <Summary numSequencePoints="15" visitedSequencePoints="11" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="73.33" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663485</MetadataToken>
+              <MetadataToken>100663479</MetadataToken>
               <Name>System.Void Stateless.NameSpace5.FakePartialClass::PretendToDoStuff()</Name>
-              <FileRef uid="151" />
+              <FileRef uid="150" />
               <SequencePoints>
-                <SequencePoint vc="2" uspid="3049" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3050" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="23" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3051" ordinal="2" offset="3" sl="22" sc="13" el="22" ec="23" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3052" ordinal="3" offset="5" sl="23" sc="13" el="23" ec="28" bec="2" bev="1" fileid="151" />
-                <SequencePoint vc="2" uspid="3053" ordinal="4" offset="15" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3054" ordinal="5" offset="16" sl="25" sc="17" el="25" ec="41" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3055" ordinal="6" offset="23" sl="26" sc="17" el="26" ec="43" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3056" ordinal="7" offset="37" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="0" uspid="3057" ordinal="8" offset="40" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="0" uspid="3058" ordinal="9" offset="41" sl="30" sc="17" el="30" ec="50" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="0" uspid="3059" ordinal="10" offset="48" sl="31" sc="17" el="31" ec="54" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="0" uspid="3060" ordinal="11" offset="62" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3061" ordinal="12" offset="63" sl="33" sc="13" el="33" ec="60" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3062" ordinal="13" offset="69" sl="34" sc="13" el="34" ec="45" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3063" ordinal="14" offset="76" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="151" />
+                <SequencePoint vc="2" uspid="3032" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3033" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="23" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3034" ordinal="2" offset="3" sl="22" sc="13" el="22" ec="23" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3035" ordinal="3" offset="5" sl="23" sc="13" el="23" ec="28" bec="2" bev="1" fileid="150" />
+                <SequencePoint vc="2" uspid="3036" ordinal="4" offset="15" sl="24" sc="13" el="24" ec="14" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3037" ordinal="5" offset="16" sl="25" sc="17" el="25" ec="41" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3038" ordinal="6" offset="23" sl="26" sc="17" el="26" ec="43" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3039" ordinal="7" offset="37" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="0" uspid="3040" ordinal="8" offset="40" sl="29" sc="13" el="29" ec="14" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="0" uspid="3041" ordinal="9" offset="41" sl="30" sc="17" el="30" ec="50" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="0" uspid="3042" ordinal="10" offset="48" sl="31" sc="17" el="31" ec="54" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="0" uspid="3043" ordinal="11" offset="62" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3044" ordinal="12" offset="63" sl="33" sc="13" el="33" ec="60" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3045" ordinal="13" offset="69" sl="34" sc="13" el="34" ec="45" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3046" ordinal="14" offset="76" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="150" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="2" uspid="3064" ordinal="0" offset="13" sl="23" path="0" offsetend="15" fileid="151" />
-                <BranchPoint vc="0" uspid="3065" ordinal="1" offset="13" sl="23" path="1" offsetend="40" fileid="151" />
+                <BranchPoint vc="2" uspid="3047" ordinal="0" offset="13" sl="23" path="0" offsetend="15" fileid="150" />
+                <BranchPoint vc="0" uspid="3048" ordinal="1" offset="13" sl="23" path="1" offsetend="40" fileid="150" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3049" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="151" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3032" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="150" />
             </Method>
             <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="69.23" branchCoverage="66.67" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
               <Summary numSequencePoints="13" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="69.23" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663486</MetadataToken>
+              <MetadataToken>100663480</MetadataToken>
               <Name>System.Void Stateless.NameSpace5.FakePartialClass::PretendToDoFakeStuff()</Name>
-              <FileRef uid="147" />
+              <FileRef uid="146" />
               <SequencePoints>
-                <SequencePoint vc="2" uspid="3066" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3067" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="23" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3068" ordinal="2" offset="3" sl="25" sc="13" el="25" ec="23" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3069" ordinal="3" offset="5" sl="26" sc="13" el="26" ec="28" bec="2" bev="1" fileid="147" />
-                <SequencePoint vc="2" uspid="3070" ordinal="4" offset="15" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3071" ordinal="5" offset="16" sl="28" sc="17" el="28" ec="41" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3072" ordinal="6" offset="22" sl="29" sc="17" el="29" ec="43" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3073" ordinal="7" offset="34" sl="30" sc="13" el="30" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="0" uspid="3074" ordinal="8" offset="37" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="0" uspid="3075" ordinal="9" offset="38" sl="33" sc="17" el="33" ec="50" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="0" uspid="3076" ordinal="10" offset="45" sl="34" sc="17" el="34" ec="54" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="0" uspid="3077" ordinal="11" offset="59" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="147" />
-                <SequencePoint vc="2" uspid="3078" ordinal="12" offset="60" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="147" />
+                <SequencePoint vc="2" uspid="3049" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3050" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="23" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3051" ordinal="2" offset="3" sl="25" sc="13" el="25" ec="23" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3052" ordinal="3" offset="5" sl="26" sc="13" el="26" ec="28" bec="2" bev="1" fileid="146" />
+                <SequencePoint vc="2" uspid="3053" ordinal="4" offset="15" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3054" ordinal="5" offset="16" sl="28" sc="17" el="28" ec="41" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3055" ordinal="6" offset="22" sl="29" sc="17" el="29" ec="43" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3056" ordinal="7" offset="34" sl="30" sc="13" el="30" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="0" uspid="3057" ordinal="8" offset="37" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="0" uspid="3058" ordinal="9" offset="38" sl="33" sc="17" el="33" ec="50" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="0" uspid="3059" ordinal="10" offset="45" sl="34" sc="17" el="34" ec="54" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="0" uspid="3060" ordinal="11" offset="59" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="146" />
+                <SequencePoint vc="2" uspid="3061" ordinal="12" offset="60" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="146" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="2" uspid="3079" ordinal="0" offset="13" sl="26" path="0" offsetend="15" fileid="147" />
-                <BranchPoint vc="0" uspid="3080" ordinal="1" offset="13" sl="26" path="1" offsetend="37" fileid="147" />
+                <BranchPoint vc="2" uspid="3062" ordinal="0" offset="13" sl="26" path="0" offsetend="15" fileid="146" />
+                <BranchPoint vc="0" uspid="3063" ordinal="1" offset="13" sl="26" path="1" offsetend="37" fileid="146" />
               </BranchPoints>
-              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3066" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="147" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3049" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="146" />
             </Method>
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663487</MetadataToken>
+              <MetadataToken>100663481</MetadataToken>
               <Name>System.Void Stateless.NameSpace5.FakePartialClass::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="3081" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="3064" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>
@@ -12495,26 +12411,110 @@
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
-              <MetadataToken>100663488</MetadataToken>
+              <MetadataToken>100663482</MetadataToken>
               <Name>System.Int32 Stateless.NameSpace5.AnotherClass::PretendToDoStuff()</Name>
-              <FileRef uid="151" />
+              <FileRef uid="150" />
               <SequencePoints>
-                <SequencePoint vc="2" uspid="3082" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3083" ordinal="1" offset="1" sl="48" sc="13" el="48" ec="23" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3084" ordinal="2" offset="3" sl="49" sc="13" el="49" ec="23" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3085" ordinal="3" offset="5" sl="50" sc="13" el="50" ec="26" bec="0" bev="0" fileid="151" />
-                <SequencePoint vc="2" uspid="3086" ordinal="4" offset="11" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="151" />
+                <SequencePoint vc="2" uspid="3065" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3066" ordinal="1" offset="1" sl="48" sc="13" el="48" ec="23" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3067" ordinal="2" offset="3" sl="49" sc="13" el="49" ec="23" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3068" ordinal="3" offset="5" sl="50" sc="13" el="50" ec="26" bec="0" bev="0" fileid="150" />
+                <SequencePoint vc="2" uspid="3069" ordinal="4" offset="11" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="150" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3082" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="151" />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="3065" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="150" />
             </Method>
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
-              <MetadataToken>100663489</MetadataToken>
+              <MetadataToken>100663483</MetadataToken>
               <Name>System.Void Stateless.NameSpace5.AnotherClass::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="2" uspid="3087" ordinal="0" offset="0" />
+              <MethodPoint vc="2" uspid="3070" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="15" visitedSequencePoints="15" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>Stateless.NameSpace5.NameSpace7.ActionInfo</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663484</MetadataToken>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.NameSpace5.NameSpace7.ActionInfo::get_Method()</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="3071" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="3071" ordinal="0" offset="0" sl="16" sc="40" el="16" ec="44" bec="0" bev="0" fileid="153" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663485</MetadataToken>
+              <Name>System.Void Stateless.NameSpace5.NameSpace7.ActionInfo::set_Method(Stateless.Reflection.InvocationInfo)</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="3072" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="58" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="3072" ordinal="0" offset="0" sl="16" sc="45" el="16" ec="58" bec="0" bev="0" fileid="153" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663486</MetadataToken>
+              <Name>System.String Stateless.NameSpace5.NameSpace7.ActionInfo::get_FromTrigger()</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="21" uspid="3073" ordinal="0" offset="0" sl="21" sc="37" el="21" ec="41" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="21" uspid="3073" ordinal="0" offset="0" sl="21" sc="37" el="21" ec="41" bec="0" bev="0" fileid="153" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663487</MetadataToken>
+              <Name>System.Void Stateless.NameSpace5.NameSpace7.ActionInfo::set_FromTrigger(System.String)</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="3074" ordinal="0" offset="0" sl="21" sc="42" el="21" ec="55" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="3074" ordinal="0" offset="0" sl="21" sc="42" el="21" ec="55" bec="0" bev="0" fileid="153" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663488</MetadataToken>
+              <Name>Stateless.NameSpace5.NameSpace7.ActionInfo Stateless.NameSpace5.NameSpace7.ActionInfo::Create(Stateless.StateMachine`2/EntryActionBehavior&lt;TState,TTrigger&gt;)</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="3075" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3076" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="179" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3077" ordinal="2" offset="8" sl="27" sc="13" el="27" ec="34" bec="2" bev="2" fileid="153" />
+                <SequencePoint vc="26" uspid="3078" ordinal="3" offset="16" sl="28" sc="17" el="28" ec="93" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="25" uspid="3079" ordinal="4" offset="50" sl="30" sc="17" el="30" ec="70" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3080" ordinal="5" offset="65" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="26" uspid="3081" ordinal="0" offset="14" sl="27" path="0" offsetend="16" fileid="153" />
+                <BranchPoint vc="25" uspid="3082" ordinal="1" offset="14" sl="27" path="1" offsetend="50" fileid="153" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="3075" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="153" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663489</MetadataToken>
+              <Name>System.Void Stateless.NameSpace5.NameSpace7.ActionInfo::.ctor(Stateless.Reflection.InvocationInfo,System.String)</Name>
+              <FileRef uid="153" />
+              <SequencePoints>
+                <SequencePoint vc="51" uspid="3083" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="69" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3084" ordinal="1" offset="7" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3085" ordinal="2" offset="8" sl="38" sc="13" el="38" ec="29" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3086" ordinal="3" offset="16" sl="39" sc="13" el="39" ec="39" bec="0" bev="0" fileid="153" />
+                <SequencePoint vc="51" uspid="3087" ordinal="4" offset="24" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="153" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="51" uspid="3083" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="69" bec="0" bev="0" fileid="153" />
             </Method>
           </Methods>
         </Class>
@@ -13631,16 +13631,16 @@
       <ModuleName>Microsoft.TestPlatform.Extensions.EventLogCollector</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="E1-3C-41-04-90-50-BB-6E-C7-61-D6-41-5A-2D-AC-A4-71-B5-61-37">
+    <Module skippedDueTo="MissingPdb" hash="50-B5-B0-94-2E-41-DA-A2-69-15-4C-63-86-C5-D1-F6-21-3B-59-E2">
       <ModulePath>C:\codebases\stateless_paulo\test\Stateless.Tests\bin\Debug\net452\Stateless.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:47:28.9084459Z</ModuleTime>
+      <ModuleTime>2017-12-20T19:54:33.7402229Z</ModuleTime>
       <ModuleName>Stateless</ModuleName>
       <Classes />
     </Module>
-    <Module hash="41-23-FD-DD-AB-0A-2A-59-A4-D0-A4-28-45-C4-1E-70-23-F6-6F-0D">
+    <Module hash="9E-1A-44-DA-95-11-FF-4F-26-75-44-8F-FF-ED-3B-33-5A-61-5D-DA">
       <Summary numSequencePoints="1925" visitedSequencePoints="0" numBranchPoints="475" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="13" minCyclomaticComplexity="1" visitedClasses="0" numClasses="93" visitedMethods="0" numMethods="421" />
       <ModulePath>C:\codebases\stateless_paulo\test\Stateless.Tests\bin\Debug\net452\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:47:32.6896454Z</ModuleTime>
+      <ModuleTime>2017-12-20T19:55:03.6306603Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Files>
         <File uid="321" fullPath="C:\codebases\stateless_paulo\test\Stateless.Tests\obj\Debug\net452\Stateless.Tests.Program.cs" />
@@ -18586,7 +18586,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663722</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_24(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_24(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="369" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="4822" ordinal="0" offset="0" sl="673" sc="70" el="673" ec="78" bec="0" bev="0" fileid="369" />
@@ -18597,7 +18597,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663723</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_25(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_25(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="369" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="4823" ordinal="0" offset="0" sl="700" sc="70" el="700" ec="78" bec="0" bev="0" fileid="369" />
@@ -18608,7 +18608,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663724</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_26(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNames&gt;b__34_26(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="369" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="4824" ordinal="0" offset="0" sl="745" sc="72" el="745" ec="80" bec="0" bev="0" fileid="369" />
@@ -18619,7 +18619,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663725</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNamesAsync&gt;b__35_12(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNamesAsync&gt;b__35_12(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="369" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="4825" ordinal="0" offset="0" sl="787" sc="70" el="787" ec="78" bec="0" bev="0" fileid="369" />
@@ -18630,7 +18630,7 @@
             <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken>100663726</MetadataToken>
-              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNamesAsync&gt;b__35_13(Stateless.NameSpace7.ActionInfo)</Name>
+              <Name>Stateless.Reflection.InvocationInfo Stateless.Tests.ReflectionFixture/&lt;&gt;c::&lt;ReflectionMethodNamesAsync&gt;b__35_13(Stateless.NameSpace5.NameSpace7.ActionInfo)</Name>
               <FileRef uid="369" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="4826" ordinal="0" offset="0" sl="812" sc="70" el="812" ec="78" bec="0" bev="0" fileid="369" />
@@ -21397,8 +21397,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="F5-25-4F-01-94-8B-DA-01-60-10-2C-11-60-AC-FE-E2-93-23-40-A0">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\4eaa76d5-466b-409f-9c9d-bb9f95b2e8dd\4eaa76d5-466b-409f-9c9d-bb9f95b2e8dd\assembly\dl3\bc288e6f\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:09.9048825Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\e2ccf352-5d58-4634-98d4-43856f7cd2df\e2ccf352-5d58-4634-98d4-43856f7cd2df\assembly\dl3\c9086b88\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:56.605336Z</ModuleTime>
       <ModuleName>xunit.runner.utility.net35</ModuleName>
       <Classes />
     </Module>
@@ -21420,27 +21420,27 @@
       <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="41-23-FD-DD-AB-0A-2A-59-A4-D0-A4-28-45-C4-1E-70-23-F6-6F-0D">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\4eaa76d5-466b-409f-9c9d-bb9f95b2e8dd\4eaa76d5-466b-409f-9c9d-bb9f95b2e8dd\assembly\dl3\b7338a63\467d5ad9_a979d301\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.123626Z</ModuleTime>
+    <Module skippedDueTo="MissingPdb" hash="9E-1A-44-DA-95-11-FF-4F-26-75-44-8F-FF-ED-3B-33-5A-61-5D-DA">
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\e2ccf352-5d58-4634-98d4-43856f7cd2df\e2ccf352-5d58-4634-98d4-43856f7cd2df\assembly\dl3\fd637f8d\ab40346d_cc79d301\Stateless.Tests.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:56.9623171Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="F5-25-4F-01-94-8B-DA-01-60-10-2C-11-60-AC-FE-E2-93-23-40-A0">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\ca438e88\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.186123Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\5bd39bab\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:57.0263169Z</ModuleTime>
       <ModuleName>xunit.runner.utility.net35</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="65-5E-31-B7-F8-FE-26-52-25-8F-0A-D2-D8-6E-39-0F-97-5A-43-F3">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\b039a49a\00de8d5d_c38ad201\xunit.execution.desktop.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.2173643Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\22796c97\00de8d5d_c38ad201\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:57.0733181Z</ModuleTime>
       <ModuleName>xunit.execution.desktop</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\16f1b4c6\00713e41_c48ad201\xunit.abstractions.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.3892391Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\9003ed75\00713e41_c48ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:57.1023143Z</ModuleTime>
       <ModuleName>xunit.abstractions</ModuleName>
       <Classes />
     </Module>
@@ -21450,9 +21450,9 @@
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="41-23-FD-DD-AB-0A-2A-59-A4-D0-A4-28-45-C4-1E-70-23-F6-6F-0D">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\de9f6d34\467d5ad9_a979d301\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.5454823Z</ModuleTime>
+    <Module skippedDueTo="MissingPdb" hash="9E-1A-44-DA-95-11-FF-4F-26-75-44-8F-FF-ED-3B-33-5A-61-5D-DA">
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\cdac87f7\ab40346d_cc79d301\Stateless.Tests.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:57.1793152Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Classes />
     </Module>
@@ -21463,8 +21463,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\2387686b\00de8d5d_c38ad201\xunit.core.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.5923525Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\95e9d1c5\00de8d5d_c38ad201\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:57.3013144Z</ModuleTime>
       <ModuleName>xunit.core</ModuleName>
       <Classes />
     </Module>
@@ -21475,8 +21475,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="1E-6E-6F-CA-1E-21-AE-46-48-63-EB-0E-7C-57-F5-E8-6B-8B-C6-D7">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\ab914249-6cd9-413b-9acf-87b46e4870b6\ab914249-6cd9-413b-9acf-87b46e4870b6\assembly\dl3\a4e68652\00713e41_c48ad201\xunit.runner.visualstudio.testadapter.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:10.9204468Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\fdec68fb-8796-4f2d-969f-0da5f938d374\fdec68fb-8796-4f2d-969f-0da5f938d374\assembly\dl3\a7d081e5\00713e41_c48ad201\xunit.runner.visualstudio.testadapter.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:59.0932787Z</ModuleTime>
       <ModuleName>xunit.runner.visualstudio.testadapter</ModuleName>
       <Classes />
     </Module>
@@ -21493,8 +21493,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="F5-25-4F-01-94-8B-DA-01-60-10-2C-11-60-AC-FE-E2-93-23-40-A0">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\7b409853-cd84-4fea-b167-d2a7a427d84e\7b409853-cd84-4fea-b167-d2a7a427d84e\assembly\dl3\2c9d9f18\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.3110115Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\5f148180-e7b8-4659-b6da-817c55e539b2\5f148180-e7b8-4659-b6da-817c55e539b2\assembly\dl3\1d31e7c7\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:57:59.8682559Z</ModuleTime>
       <ModuleName>xunit.runner.utility.net35</ModuleName>
       <Classes />
     </Module>
@@ -21516,27 +21516,27 @@
       <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="41-23-FD-DD-AB-0A-2A-59-A4-D0-A4-28-45-C4-1E-70-23-F6-6F-0D">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\7b409853-cd84-4fea-b167-d2a7a427d84e\7b409853-cd84-4fea-b167-d2a7a427d84e\assembly\dl3\83c5118a\467d5ad9_a979d301\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.4828822Z</ModuleTime>
+    <Module skippedDueTo="MissingPdb" hash="9E-1A-44-DA-95-11-FF-4F-26-75-44-8F-FF-ED-3B-33-5A-61-5D-DA">
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\5f148180-e7b8-4659-b6da-817c55e539b2\5f148180-e7b8-4659-b6da-817c55e539b2\assembly\dl3\64f2999c\ab40346d_cc79d301\Stateless.Tests.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:01.1932376Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="F5-25-4F-01-94-8B-DA-01-60-10-2C-11-60-AC-FE-E2-93-23-40-A0">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\ced579d0\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.7953601Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\18ca7bcb\00713e41_c48ad201\xunit.runner.utility.net35.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:01.7062201Z</ModuleTime>
       <ModuleName>xunit.runner.utility.net35</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="65-5E-31-B7-F8-FE-26-52-25-8F-0A-D2-D8-6E-39-0F-97-5A-43-F3">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\fc2a8abc\00de8d5d_c38ad201\xunit.execution.desktop.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.8422249Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\ee30ecdf\00de8d5d_c38ad201\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:01.9012196Z</ModuleTime>
       <ModuleName>xunit.execution.desktop</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\cedf18fd\00713e41_c48ad201\xunit.abstractions.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.857855Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\b4c32d09\00713e41_c48ad201\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:02.1202166Z</ModuleTime>
       <ModuleName>xunit.abstractions</ModuleName>
       <Classes />
     </Module>
@@ -21546,9 +21546,9 @@
       <ModuleName>System</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="41-23-FD-DD-AB-0A-2A-59-A4-D0-A4-28-45-C4-1E-70-23-F6-6F-0D">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\26f8bc92\467d5ad9_a979d301\Stateless.Tests.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:12.9359713Z</ModuleTime>
+    <Module skippedDueTo="MissingPdb" hash="9E-1A-44-DA-95-11-FF-4F-26-75-44-8F-FF-ED-3B-33-5A-61-5D-DA">
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\0c4ccc24\ab40346d_cc79d301\Stateless.Tests.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:02.1882188Z</ModuleTime>
       <ModuleName>Stateless.Tests</ModuleName>
       <Classes />
     </Module>
@@ -21559,8 +21559,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="B4-1C-0E-F5-FD-FF-9B-C4-1E-A4-FC-70-D7-8F-C0-AC-9B-CC-1F-13">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\33b942ed\00de8d5d_c38ad201\xunit.core.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:13.04535Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\b91cac54\00de8d5d_c38ad201\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:02.2312198Z</ModuleTime>
       <ModuleName>xunit.core</ModuleName>
       <Classes />
     </Module>
@@ -21577,8 +21577,8 @@
       <Classes />
     </Module>
     <Module skippedDueTo="MissingPdb" hash="1E-6E-6F-CA-1E-21-AE-46-48-63-EB-0E-7C-57-F5-E8-6B-8B-C6-D7">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\47a476b9\00713e41_c48ad201\xunit.runner.visualstudio.testadapter.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:13.4203333Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\8cf89bd5\00713e41_c48ad201\xunit.runner.visualstudio.testadapter.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:02.4542177Z</ModuleTime>
       <ModuleName>xunit.runner.visualstudio.testadapter</ModuleName>
       <Classes />
     </Module>
@@ -21600,21 +21600,21 @@
       <ModuleName>System.Collections</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="MissingPdb" hash="E1-3C-41-04-90-50-BB-6E-C7-61-D6-41-5A-2D-AC-A4-71-B5-61-37">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\9d4244d9\2b8619d7_a979d301\Stateless.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:13.7484517Z</ModuleTime>
-      <ModuleName>Stateless</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="1C-6D-0B-B9-A6-74-CC-C6-61-16-34-A9-64-EF-49-8B-5B-05-45-DD">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.0-preview1-25929-02\System.ComponentModel.TypeConverter.dll</ModulePath>
       <ModuleTime>2017-11-29T09:12:24Z</ModuleTime>
       <ModuleName>System.ComponentModel.TypeConverter</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="MissingPdb" hash="50-B5-B0-94-2E-41-DA-A2-69-15-4C-63-86-C5-D1-F6-21-3B-59-E2">
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\62849bc8\7555635b_cc79d301\Stateless.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:04.5111818Z</ModuleTime>
+      <ModuleName>Stateless</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="MissingPdb" hash="8B-3E-B0-DD-85-1A-6F-D8-86-4B-F4-A7-2F-45-5D-9F-2C-B3-13-87">
-      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\f95cdf7b-bc1b-4f15-bc62-b0b80524ada6\assembly\dl3\f78abab4\00de8d5d_c38ad201\xunit.assert.dll</ModulePath>
-      <ModuleTime>2017-12-20T15:51:13.8421777Z</ModuleTime>
+      <ModulePath>C:\Users\Administrator\AppData\Local\Temp\2\58f661d7-5292-46f8-aefd-0f0694f43db0\58f661d7-5292-46f8-aefd-0f0694f43db0\assembly\dl3\c96db73b\00de8d5d_c38ad201\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-12-20T19:58:04.7271612Z</ModuleTime>
       <ModuleName>xunit.assert</ModuleName>
       <Classes />
     </Module>

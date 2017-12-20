@@ -3,7 +3,7 @@ using Stateless;
 
 using Stateless.Reflection;
 
-namespace Stateless.NameSpace7
+namespace Stateless.NameSpace5.NameSpace7
 {
     /// <summary>
     /// Information on entry and exit actions

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Stateless.Graph;
-using Stateless.NameSpace7;
+using Stateless.NameSpace5.NameSpace7;
 using Stateless.Reflection;
 
 namespace Stateless.NameSpace5
