@@ -30,9 +30,25 @@ namespace Stateless.NameSpace5
                 string confused = "What the ...";
                 confused += "Your machine is broken";
             }
+            AnotherClass anotherClass = new AnotherClass();
+            anotherClass.PretendToDoStuff();
         }
     }
 
-
+    /// <summary>
+    /// Describes a fake class.
+    /// </summary>
+    public class AnotherClass
+    {
+        /// <summary>
+        /// Describes a fake method.
+        /// </summary>
+        public int PretendToDoStuff()
+        {
+            int a = 1;
+            int b = 3;
+            return a + b;
+        }
+    }
 
 }

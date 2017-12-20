@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Stateless.Graph;
+using Stateless.NameSpace5;
 using Stateless.NameSpace6;
 using Stateless.Reflection;
 
@@ -24,6 +25,8 @@ namespace Stateless.NameSpace3
         {
             DestinationState = destinationState;
             Criterion = criterion;
+            FakePartialClass.PretendToDoStuff();
+            FakePartialClass.PretendToDoFakeStuff();
         }
     }
 
